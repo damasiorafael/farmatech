@@ -1,0 +1,24 @@
+#localizacao { float: right; width: 295px; background: url(../img/bg-lateral-direita.png) no-repeat center center; padding-top: 35px; padding-left: 34px; margin-top: 100px;}
+#localizacao h2 { display: block; width: 124px; height: 37px; background: url(../img/bg-title-localizacao.png) no-repeat 0 0; font: normal 18px "MyriadPro"; color: #6e6e6e; padding: 6px 0 0 30px;}
+
+#localizacao > span { display: block; width: 257px; padding-left: 4px;}
+#localizacao h3 { display: block; margin-top: 16px;}
+#localizacao h3 > a {}
+#localizacao h3 a img {}
+
+#localizacao div.box-inf-contato { margin: 30px 0 0 4px;}
+
+div.box-inf-contato * { float: left;}
+div.box-inf-contato .inf-img { width: 40px!important; height: 35px; margin-right: 20px;}
+div.box-inf-contato .img-endereco { margin-bottom: 30px; background: url(../img/bg-icon-localizacao.png) no-repeat 0 0;}
+div.box-inf-contato .img-fone { margin-bottom: 5px; background: url(../img/bg-icon-fone.png) no-repeat 0 0;}
+div.box-inf-contato .img-email { margin-bottom: 5px; background: url(../img/bg-icon-email.png) no-repeat 0 0;}
+div.box-inf-contato h4 { font: bold 13px "MyriadPro"; color: #6e6e6e; float: left; display: block; margin-right: 3px;}
+div.box-inf-contato span { font-size: 13px; color: #5f5f5f; float: left; display: block;}
+
+#localizacao div .box-inf { margin-bottom: 25px;}
+#localizacao div .box-inf * {}
+#localizacao div .inf-endereco {}
+#localizacao div .inf-endereco span { clear: both;}
+#localizacao div .inf-fone {}
+#localizacao div .inf-email {}

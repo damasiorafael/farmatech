@@ -1,0 +1,32 @@
+.contentForm {}
+.contentForm ul {}
+.contentForm ul li { float: left; margin-bottom: 15px; width: 270px;}
+.contentForm ul li.liPar { margin-left: 40px;}
+.contentForm ul li.liNome, .liTextarea { width: auto; margin-left: 0;}
+.contentForm ul li label { float: left; color: #E85627!important; font-size: 13px; width: 270px;}
+.contentForm ul li label[for="nome"], label[for="mensagem"] { width: 580px;}
+.contentForm ul li label span {}
+span.requerido { color: #F00; font-size: 14px;}
+.contentForm ul li div { float: left; border: 1px solid #8E8E8E; background: -webkit-linear-gradient(top, #FFFFFF, #EFEFEF); background: -moz-linear-gradient(top, #FFFFFF, #EFEFEF); padding: 4px 4px; margin-top: 10px; position: relative;}
+.contentForm ul li div.divEstado { padding-top: 3px; padding-bottom: 3px;}
+.contentForm ul li div input, .contentForm ul li div select { background: none!important; width: 262px;}
+.contentForm ul li div textarea { background: none; min-width: 572px; max-width: 572px; min-height: 140px; max-height: 140px;}
+.contentForm ul li div input.nome, .contentForm ul li div textarea.mensagem { width: 572px;}
+.contentForm ul li div input.email { display: block;}
+.contentForm ul li div select option {}
+
+.contentForm ul li.li-inf-requerido, .contentForm ul li.li-bt-envia { width: 584px; margin-left: 0;}
+.contentForm ul li span.span-inf-requerido, .contentForm ul li span.bt-envia { display: block;}
+.contentForm ul li span.span-inf-requerido { color: #F00;}
+.contentForm ul li button.bt-envia, input.bt-envia, div.btEnvia { width: 169px; height: 57px; float: right; font-size: 18px; display: block; background: url(../img/btEnviar.png) no-repeat 0 0; margin: 0; cursor: pointer; color: #fd8232;}
+.contentForm ul li button.bt-envia-entrar { width: 169px; height: 57px; float: right; font-size: 18px; display: block; background: url(../img/btEntrar.png) no-repeat 0 0; margin: 0; cursor: pointer; color: #fd8232;}
+div.btRecupera { width: 169px; height: 57px; float: right; font-size: 18px; display: block; background: url(../img/btRecuperar.png) no-repeat 0 0; margin: 0; cursor: pointer; color: #fd8232;}
+div.btRecupera strong { display: none;}
+.contentForm ul li button.bt-envia strong, input.bt-envia strong, div.btEnvia strong { display: none;}
+.contentForm ul li button.bt-envia:hover, input.bt-envia:hover, div.btEnvia:hover {}
+
+span.error { color: #FF0000; font-size: 12px; position: absolute; right: 0; top: -17px;}
+
+/* FORMULARIO DE LOGIN AREA RESTRITA */
+#login .contentForm ul li.li-bt-envia { width: 400px; margin-left: 0;}
+#login .contentForm ul li div input, #login .contentForm ul li div select { background: none!important; width: 390px;}

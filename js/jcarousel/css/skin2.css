@@ -1,0 +1,55 @@
+.jcarousel-skin-tango2 .jcarousel-container { border: none;}
+
+.jcarousel-skin-tango2 .jcarousel-direction-rtl { direction: rtl;}
+
+.jcarousel-skin-tango2 .jcarousel-container-horizontal { width: 377px; margin: 25px 0 0 0;}
+
+.jcarousel-skin-tango2 .jcarousel-clip { overflow: hidden;}
+
+.jcarousel-skin-tango2 .jcarousel-clip-horizontal { width: 306px; height: 113px; margin: auto;}
+
+.jcarousel-skin-tango2 .jcarousel-item { width: 92px; height: 113px; text-align: center!important;}
+.jcarousel-skin-tango2 .jcarousel-item a { width: 92px!important; height: 113px!important; font-size: 11px; text-align: center!important;}
+.jcarousel-skin-tango2 .jcarousel-item img { width: 88px; height: 66px; border: 2px solid #848484; -moz-border-radius-topleft: 2px/*{cornerRadius}*/; -webkit-border-top-left-radius: 2px/*{cornerRadius}*/; -khtml-border-top-left-radius: 2px/*{cornerRadius}*/; border-top-left-radius: 2px/*{cornerRadius}*/; -moz-border-radius-topright: 2px/*{cornerRadius}*/; -webkit-border-top-right-radius: 2px/*{cornerRadius}*/; -khtml-border-top-right-radius: 2px/*{cornerRadius}*/; border-top-right-radius: 2px/*{cornerRadius}*/; -moz-border-radius-bottomleft: 2px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 2px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 2px/*{cornerRadius}*/; border-bottom-left-radius: 2px/*{cornerRadius}*/; -moz-border-radius-bottomright: 2px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 2px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 2px/*{cornerRadius}*/; border-bottom-right-radius: 2px/*{cornerRadius}*/;}
+.jcarousel-skin-tango2 .jcarousel-item span {}
+
+.jcarousel-skin-tango2 .jcarousel-item-horizontal { margin: 0; margin-right: 15px;}
+
+.jcarousel-skin-tango2 .jcarousel-direction-rtl .jcarousel-item-horizontal { margin: 0;}
+
+.jcarousel-skin-tango2 .jcarousel-item-vertical {}
+
+.jcarousel-skin-tango2 .jcarousel-item-placeholder {}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango2 .jcarousel-next-horizontal { width: 26px; height: 26px; position: absolute; top: 18px; right: 0; cursor: pointer; background: url(../../../img/verde/setasJcarousel2.png) no-repeat -78px top;}
+
+.jcarousel-skin-tango2 .jcarousel-direction-rtl .jcarousel-next-horizontal { left: 0; right: 0;}
+
+.jcarousel-skin-tango2 .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango2 .jcarousel-next-horizontal:focus { background-position: -104px 0;}
+
+.jcarousel-skin-tango2 .jcarousel-next-horizontal:active { background-position: -130px 0;}
+
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: right 0;}
+
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal { width: 26px; height: 26px; position: absolute; top: 18px; left: 0; cursor: pointer; background: url(../../../img/verde/setasJcarousel2.png) no-repeat -52px top;}
+
+.jcarousel-skin-tango2 .jcarousel-direction-rtl .jcarousel-prev-horizontal { left: 0; right: 0;}
+
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:focus { background-position: -52px 0!important;}
+
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:active { background-position: -26px 0!important;}
+
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: left 0!important;}
+
+.jcarousel-skin-tango2 .itemCarousel a { font-size: 11px;}

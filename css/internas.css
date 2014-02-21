@@ -1,0 +1,137 @@
+.corpoInternas { width: 912px!important; background: #FFF; float: left; border-top: 5px solid #1EB87C; margin-top: 70px!important; padding: 51px 27px 0 27px; position: relative;}
+.corpoInternas h2 { width: 136px; height: 57px; display: block; background: url(../img/verde/bgTitleAcontece.png) no-repeat left 4px; color: #FFF; font-size: 32px; font-weight: normal; padding: 2px 0 0 10px; position: absolute; top: -40px; left: 5px;}
+
+.corpoInternas h2.internasDinamicas { width: 212px!important; background: url(../img/verde/bgTitleModalidades.png) no-repeat left 4px!important; padding-left: 25px!important;}
+
+.corpoInternas h2.internasSustentabilidade { padding-left: 18px!important;}
+
+.corpoInternas h2.titleContato { padding-left: 22px;}
+
+/* NOTICIAS */
+ul.listaNoticiasDestaque { width: 100%; float: left;}
+ul.listaNoticiasDestaque li.noticiasDestaque { width: 441px; float: left; padding: 11px 0 12px 14px; background: #FFF; display: table; vertical-align: top;}
+ul.listaNoticiasDestaque li.noticiasDestaque:hover { background: url(../img/bgListaNoticiasHover.jpg) no-repeat right center #EBEBEB;}
+ul.listaNoticiasDestaque li.noticiasDestaque div { display: table-cell; vertical-align: top;}
+ul.listaNoticiasDestaque li.noticiasDestaque div.imgNoticia { margin-right: 10px;}
+ul.listaNoticiasDestaque li.noticiasDestaque div.detNoticias {}
+ul.listaNoticiasDestaque li.noticiasDestaque div a.imgNoticia { width: 200px; float: left; display: block; margin-right: 10px;}
+ul.listaNoticiasDestaque li.noticiasDestaque div a img {}
+ul.listaNoticiasDestaque li.noticiasDestaque div a span { width: 100%;}
+ul.listaNoticiasDestaque li.noticiasDestaque div span { width: 100%; float: left;}
+ul.listaNoticiasDestaque li.noticiasDestaque div span.data { color: #545454; font-size: 15px; margin-bottom: 6px; line-height: 10px;}
+ul.listaNoticiasDestaque li.noticiasDestaque div span.tituloNoticia { color: #1EB87C; font-size: 22px; margin-bottom: 12px; text-transform: uppercase;}/* COR */
+ul.listaNoticiasDestaque li.noticiasDestaque div span.resumoNoticia { font-size: 13px;}
+
+ul.listaNoticias { width: 100%; float: left; padding-bottom: 2px; margin-top: 15px; margin-bottom: 52px; background: url(../img/bgBottomListaNoticias.jpg) no-repeat center bottom;}
+ul.listaNoticias li.noticias { padding: 8px; background: #FFF; display: table; vertical-align: top; border-bottom: 2px solid #C9C9C9; margin-bottom: 19px;}
+ul.listaNoticias li.noticias:hover { background: #EBEBEB!important;}
+ul.listaNoticias li.noticias div { display: table-cell; vertical-align: top;}
+ul.listaNoticias li.noticias div.imgNoticia {}
+ul.listaNoticias li.noticias div.detNoticias {}
+ul.listaNoticias li.noticias div a.imagemNoticia { width: 78px; float: left; display: block; margin-right: 5px;}
+ul.listaNoticias li.noticias div a img {}
+ul.listaNoticias li.noticias div a span { width: 100%;}
+ul.listaNoticias li.noticias div span { width: 100%; float: left;}
+ul.listaNoticias li.noticias div span.data { color: #545454; font-size: 14px; line-height: 10px;}
+ul.listaNoticias li.noticias div span.tituloNoticia { color: #1EB87C; font-size: 18px;}
+ul.listaNoticias li.noticias div span.resumoNoticia { font-size: 13px;}
+
+div.maisNoticias { float: right; margin-bottom: 60px;}
+div.maisNoticias form {}
+div.maisNoticias form select { width: 502px!important; height: 24px!important; color: #000; font-size: 13px!important; background: none!important;}
+div.maisNoticias form select option { color: #000; font-size: 13px!important; background: none!important;}
+
+
+/* PAGINA NOTICIA DETALHES*/
+.headNoticia { padding-left: 14px;}
+.headNoticia h4 { font-size: 23px; color: #1EB87C; font-weight: normal;}
+.headNoticia h5.data { font-size: 15px; color: #545454; font-weight: normal;}
+
+.conteudoNoticia { margin-left: 14px; margin-top: 19px; padding-bottom: 28px; display: table; border-bottom: 2px solid #DADADA;}
+.conteudoNoticia div { display: table-cell; vertical-align: top;}
+.conteudoNoticia div img.imgDestaqueNoticia { margin-right: 23px; border: 2px solid #1EB87C;}
+.conteudoNoticia div.imgNoticia {}
+.conteudoNoticia div.detNoticias {}
+.redesSociais span { float: left; color: #595858; font-size: 13px;}
+.redesSociais .addthis_toolbox { float: left; margin-left: 12px;}
+.redesSociais .addthis_toolbox a { margin-right: 10px; cursor: pointer;}
+
+.contentNoticia { display: block; color: #545454; font-size: 13px; }
+.galeriaNoticia { width: 100%; float: left; padding-left: 14px; margin-top: 20px;}
+.galeriaNoticia h6 { text-transform: uppercase; color: #545454; font-size: 15px; font-weight: normal;}
+.galeriaNoticia .listaGaleriaNoticia { width: 100%; float: left; margin-top: 15px; padding-bottom: 20px; margin-bottom: 25px; background: url(../img/bgBottomListaNoticias.jpg) no-repeat center bottom;}
+.listaGaleriaNoticia li { width: 139px; height: 108px; float: left; background: url(../img/bgListaGaleriaNoticia.png) no-repeat left top; text-align: center; display: table; margin-right: 10px; margin-bottom: 10px;}
+.listaGaleriaNoticia li:hover { background-position: right top;}
+.listaGaleriaNoticia li a { display: table-cell; vertical-align: middle; text-align: center; padding-top: 5px; padding-left: 4px;}
+.listaGaleriaNoticia li a img { border: 1px solid #1EB87C;}
+
+
+/* FALE CONOSCO */
+.contentLeft { width: 481px; float: left;}
+.contentLeft {}
+.contentLeft .topointernas {}
+.contentLeft .topointernas span { color: #545454; font-size: 13px; display: block; margin: 15px 0 0 0;}
+.contentLeft .topointernas span.msgRequerido { font-size: 13px; color: #F00; display: block; margin: 15px 0 25px 0;}
+.escopoForm ul {}
+.escopoForm ul li { float: left; margin: 0 0 20px 0;}
+.escopoForm ul li.campoCidade { float: right; margin-right: 17px;}
+.escopoForm ul li.campoCelular { float: right; margin-right: 17px;}
+.escopoForm ul li.campoTipo { float: right; margin-right: 17px;}
+.escopoForm ul li label { font-size: 20px; color: #000; margin-bottom: 10px; display: block;}
+.escopoForm ul li div { background: url(../img/bgInput.jpg) repeat-x left top; position: relative; border: 1px solid #1EB87C;}
+.escopoForm ul li div span.error { position: absolute; bottom: -14px; left: 0;}
+span.error { color: #F00; font-size: 11px; display: block; background: url(../img/i_msg-error.gif) no-repeat left top;}
+
+.escopoForm ul li div input { width: 434px; padding: 0 15px; font-size: 13px; color: #000; margin: 8px 0;}
+
+.escopoForm ul li div input.telefone { width: 189px;}
+.escopoForm ul li div input.nascimento { width: 189px;}
+.escopoForm ul li div input.cidade { width: 189px;}
+
+.escopoForm ul li div select { width: 197px; height: 18px; margin: 7px 10px; font-size: 13px; color: #000; background: none!important;}
+.escopoForm ul li div select option { font-size: 13px; color: #000; background: none!important;}
+.escopoForm ul li div.campoTextarea { height: 181px; background: url(../img/bgTextarea.jpg) repeat-x left top;}
+.escopoForm ul li div textarea { width: 419px; height: 140px; padding: 0 15px; font-size: 13px; color: #000; margin: 8px 15px 12px 0; overflow: hidden; background: none;}
+
+.escopoForm ul li ul.listaCheckBox { float: left;}
+.escopoForm ul li ul.listaCheckBox li { width: 139px; height: 30px!important; float: left; margin: 0; margin-right: 21px;}
+.escopoForm ul li ul.listaCheckBox li label { float: left; color: #4D4D4D; font-size: 16px;}
+.escopoForm ul li ul.listaCheckBox li input  { float: left; margin: 5px 5px 0 0;}
+
+.contentBtEnvia { width: 83px; height: 38px; float: right; margin: 10px 15px 25px 0;}
+.contentBtEnvia button { width: 83px; height: 38px; background: url(../img/verde/btEnvia.jpg) no-repeat left top; display: block;}
+.contentBtEnvia button span { text-transform: uppercase; color: #FFF; font-size: 18px;}
+
+.requerido { color: #F00; font-size: 13px;}
+
+.contentRight { width: 404px; float: right; background: url(../img/bgLocal.jpg) no-repeat left top; padding: 70px 0 80px 24px;}
+.contentRight h3 { text-transform: uppercase; color: #6B6B6B; font-size: 20px; font-weight: normal; padding-left: 13px;}
+.contentLocalizacao { width: 100%; float: left; margin: 15px 0 0 14px;}
+.contentLocalizacao a.mapaLocalizacao {}
+.contentLocalizacao a.mapaLocalizacao img { border: 2px solid #1EB87C;}
+.contentLocalizacao h4 { margin: 27px 0 15px 0; color: #9B3033; display: block; font-size: 20px; text-transform: uppercase; font-weight: normal;}
+.contentLocalizacao span { width: 249px; height: 42px; padding: 12px 0 0 60px; color: #393939; font-size: 13px; float: left; display: block; margin-top: 15px;}
+.contentLocalizacao span.address { background: url(../img/verde/bgCasa.jpg) no-repeat left top;}
+.contentLocalizacao span.phone { background: url(../img/verde/bgTelefone.jpg) no-repeat left top;}
+
+.modal { float: left;}
+.modal .modalEsquerda { width: 191px; float: left; background: url(../img/bgMenuVert.jpg) no-repeat right top;}
+.modal .menuVertical { float: left; padding: 0 0 130px;}
+.modal .menuVertical li { width: 155px; float: left; background: url(../img/bgMenuVertTopo.jpg) no-repeat left top;}
+.modal .menuVertical li a { width: 145px; display: block; padding: 3px 0 9px 10px; font-size: 21px;}
+.modal .menuVertical li a:hover { background: url(../img/verde/bgMenuVert.jpg) repeat left top; color: #FFF!important;}
+
+.modal .modalDireita { width: 667px; float: left; padding: 0 0 30px 33px;}
+.modal .modalDireita .logo { width: 100%; float: left;}
+.modal .modalDireita .tituloModalidade { width: 100%; float: left; font-size: 20px; font-weight: normal; display: block; padding-bottom: 30px;}
+.modal .modalDireita .imgDescription { float: left; margin: 0 16px 10px 0; display: block; border: 1px solid #CCC; padding: 3px;}
+.modal .modalDireita p { line-height: 25px;}
+
+h3.texto-horarios { font-size: 22px; color: #484848; font-weight: normal;}
+.horarios { width: 910px; float: left; margin: 40px 0;}
+.horarios table {}
+.horarios table tr th { padding-bottom: 10px;}
+.horarios table tr th h4 { width: 113px; height: 42px; display: block; background: url(../img/bgTitleDia.png) no-repeat left top; font-weight: normal; font-size: 19px; text-transform: uppercase;}
+.horarios table tr td { border: 1px solid #1EB87C; padding: 10px 0;}
+.horarios table tr td.semBorda { border: none!important;}
+.horarios table tr td.horas { color: #4D3614; font-size: 22px;}

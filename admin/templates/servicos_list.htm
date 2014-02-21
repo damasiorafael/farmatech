@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML {$html_attrs}><HEAD><TITLE>Servicos</TITLE>
+<link REL="stylesheet" href="include/style.css" type="text/css"><!--[if IE]><link REL="stylesheet" href="include/styleIE.css" type="text/css"><![endif]-->{BEGIN style_block}
+<STYLE>
+#height100{$id} {padding:10px;}
+#toplinks_block{$id} {padding:2px 5px}
+#toplinks_block{$id} > * {margin:4px 6px;vertical-align:middle;}
+#menu_block{$id} {clear:left;margin-top:10px;}
+#menu_block{$id} div {{BEGIN RTL_block}float:right;{END RTL_block}{BEGIN LTR_block}float:left;{END LTR_block}}
+#menu_block{$id} div div {margin-right:1px;float:none;}
+#menu_block{$id} a {white-space:nowrap;}
+#search_records_block{$id} {padding:9px 10px 13px 10px;text-align:right}
+#search_records_block{$id} > * {margin:2px 2px;vertical-align:middle}
+#detFound{$id}, #pageOf{$id} {white-space:nowrap}
+#recordcontrols_block{$id} {padding:13px 10px 9px 10px;text-align:right}
+#recordcontrols{$id} > *,#newrecordcontrols{$id} > * {margin:2px 2px;vertical-align:middle}
+#search_records_top{$id} {{BEGIN RTL_block}clear:right;{END RTL_block}{BEGIN LTR_block}clear:left;{END LTR_block}}
+#message_block{$id} {text-align:center;}
+#grid_block{$id} {margin-top:10px;}
+.listIcons img.listIcon{margin:0 3px;opacity:0.3;filter:alpha(opacity=30);}
+.headerlist_right2 *,.headerlist * {vertical-align:middle}
+.grid_recordheader {padding-top:5px;}
+.grid_recordheader a {margin:0 5px;}
+#mastertable_block{$id} {margin:10px 0}
+#searchOptions{$id}{
+	margin-right: 10px;
+	padding-bottom: 18px;
+}
+#searchPanelBottomRound{$id}{
+	/*margin-right: 10px !important;*/
+}
+#searchform{$id}{
+	float: left; 
+}
+#searchPanelContainer{$id}{
+	width: 200px;
+	margin-top:10px;
+	display: block; 
+	float: none;
+	position:absolute;
+}
+body{margin:0px;padding:0px;}
+
+/*report styles*/
+
+
+#export_links{$id} * {padding:0}
+</STYLE>
+{END style_block}<!--[if IE]>{BEGIN iestyle_block}
+<STYLE>
+#toplinks_block{$id} * {margin:2px 3px;vertical-align:middle;}
+#search_records_block{$id} * {margin:1px 1px;vertical-align:middle}
+#recordcontrols{$id} *, #newrecordcontrols{$id} * {margin:1x 1px;vertical-align:middle}
+.grid {height:100%;}
+</STYLE>
+{END iestyle_block}<![endif]-->
+<META name=GENERATOR content="MSHTML 9.00.8112.16443"></HEAD>
+<BODY marginheight="0" marginwidth="0" {$bodyattrs}>{BEGIN body}{$header} 
+<DIV id="height100{$id}">
+{BEGIN toplinks_block}<DIV><B class=xtop><B class="rb1 rb1_top"></B><B 
+class="rb2 rb2_top"></B><B class="rb3 rb3_top"></B><B 
+class="rb4 rb4_top"></B></B>
+<DIV id="toplinks_block{$id}" class=top><SPAN><FONT 
+style="FONT-FAMILY: Verdana, Arial">Logado Como</FONT>&nbsp;<B>{$username}</B>&nbsp;</SPAN> <SPAN 
+class=buttonborder><INPUT class=button value="Log Out" type=button {$logoutlink_attrs}></SPAN> 
+{BEGIN adminarea_link}<SPAN class=buttonborder><INPUT class=button value="Área  Admin" type=button {$adminarealink_attrs}></SPAN>{END adminarea_link} 
+{BEGIN asearch_link}<SPAN class=buttonborder><INPUT class=button value="Busca Avancada" type=button {$asearchlink_attrs}></SPAN>{END asearch_link} 
+</DIV><B class=xbottom><B class="rb4 rb4_top"></B><B class="rb3 rb3_top"></B><B 
+class="rb2 rb2_top"></B><B class="rb1 rb1_top"></B></B></DIV>{END toplinks_block}<!-- MenuBegin -->
+{BEGIN menu_block}<DIV id="menu_block{$id}"><!-- MainMenuBegin -->{$mainmenu horizontal}<!-- MainMenuEnd --></DIV>{END menu_block}<!-- MenuEnd -->
+{BEGIN search_records_block}<DIV id="search_records_top{$id}"><B 
+class="rb2 rb2_search"></B><B class="rb3 rb3_search"></B><B 
+class="rb4 rb4_search"></B>
+<DIV id="search_records_block{$id}" class=main_table_border_P>{BEGIN searchform}<!-- Search panel header for horizontal layouts --><SPAN id="searchform{$id}" align="absmiddle"><SPAN id="searchPanelHeader{$id}">{$simpleSearchFieldCombo} {$simpleSearchTypeCombo} {BEGIN searchform_text}<INPUT size=25 {$searchfor_attrs}>{END searchform_text} &nbsp; {BEGIN searchform_search}<SPAN class=buttonborder><INPUT style="BACKGROUND-IMAGE: url(images/search/search.gif); WIDTH: 18px" class=button type=button {$searchbutton_attrs}></SPAN>{END searchform_search} 
+&nbsp; {BEGIN searchform_showall}<SPAN id="showall{$id}" class=buttonborder {$showAllCont_attrs}><INPUT class=button value="Mostrar Todos" type=button {$showallbutton_attrs}></SPAN>{END searchform_showall} 
+</SPAN>{BEGIN searchPanelTopButtons}<SPAN>&nbsp; <SPAN class=buttonborder><INPUT style="BACKGROUND-IMAGE: url(images/search/showWindowPin.gif); WIDTH: 18px" id="showSrchWin{$id}" class=button type=button {$showHideSearchWin_attrs}></SPAN> 
+&nbsp; <SPAN class=buttonborder><INPUT style="BACKGROUND-IMAGE: url(images/search/showOptions.gif); WIDTH: 18px" id="showOptPanel{$id}" class=button type=button {$showHideSearchPanel_attrs}></SPAN> 
+</SPAN>{END searchPanelTopButtons}</SPAN>{END searchform}
+<DIV style="DISPLAY: inline">&nbsp;&nbsp;&nbsp; {BEGIN details_block}<SPAN {$details_attrs}>Ítens Encontrados: {$records_found}&nbsp;</SPAN>{END details_block} {BEGIN pages_block}<SPAN {$pages_attrs}>Página {$page} de {$maxpages}</SPAN>{END pages_block} &nbsp;&nbsp;&nbsp; {BEGIN recordspp_block}{$recsPerPage} {END recordspp_block}</DIV></DIV></DIV>{END search_records_block}<!-- search panel and window -->
+<DIV id="searchPanelContainer{$id}" class=searchPanelContainer>{$adv_search_panel} </DIV><B id="searchPanelBottomRound{$id}" class=xbottom {$searchPanelBottomRound_attrs}><B class="rb4 rb4_panel"></B><B 
+class="rb3 rb3_panel"></B><B class="rb2 rb2_panel"></B><B 
+class="rb1 rb1_panel"></B></B>
+<DIV moveForSearch="move{$id}" {$marginStyle}>{BEGIN recordcontrols_block}
+<DIV id="recordcontrols_block{$id}" class=body3>{BEGIN newrecord_controls}<SPAN id="newrecord_controls{$id}">{BEGIN inlineadd_link}<SPAN class=buttonborder><INPUT class=button value="Adicionar Novo" type=button {$inlineaddlink_attrs}></SPAN> 
+{END inlineadd_link}</SPAN>{END newrecord_controls}{BEGIN record_controls}<SPAN id="record_controls{$id}">{BEGIN editselected_link}<SPAN class=buttonborder {$editselectedlink_span}><INPUT class=button value="Editar selecionado" type=button {$editselectedlink_attrs}></SPAN>{END editselected_link} 
+{BEGIN saveall_link}<SPAN class=buttonborder {$savealllink_span}><INPUT class=button value="Salvar todos" type=button {$savealllink_attrs}></SPAN>{END saveall_link} 
+{BEGIN cancelall_link}<SPAN class=buttonborder {$cancelalllink_span}><INPUT class=button value="Cancelar Edição" type=button {$cancelalllink_attrs}></SPAN>{END cancelall_link} 
+{BEGIN deleteselected_link}<SPAN class=buttonborder {$deleteselectedlink_span}><INPUT class=button value="Elimina Selecionados" type=button {$deleteselectedlink_attrs}></SPAN>{END deleteselected_link} 
+</SPAN>{END record_controls}</DIV><B class=xbottom><B class="rb4 rb4_controls"></B><B 
+class="rb3 rb3_controls"></B><B class="rb2 rb2_controls"></B><B 
+class="rb1 rb1_controls"></B></B>{END recordcontrols_block}
+<DIV id="usermessage{$id}" class=message>{$user_message}</DIV>
+{BEGIN grid_block}<DIV id="grid_block{$id}">
+<TABLE class=data border=0 cellSpacing=0 cellPadding=3 name="maintable">
+  {BEGIN grid_header}<THEAD>
+  <TR class=blackshade vAlign=top {$gridHeader_attrs}>{BEGIN record_header}
+    <TH class=headerlist_left_gif_P width=5>&nbsp;</TH>
+    {BEGIN listIcons_column}<TH class=headerlist noWrap align=center {$widthListIcons}>&nbsp;</TH>{END listIcons_column}
+    {BEGIN checkbox_column}<TH class=headerlist width=20 align=center><INPUT type=checkbox {$checkboxheader_attrs}> 
+    </TH>{END checkbox_column}
+    {BEGIN id_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN id_fieldheader}&nbsp; <A class=tablelinks 
+      {$id_orderlinkattrs}>ID</A> &nbsp; {END id_fieldheader}</TH>{END id_fieldheadercolumn}
+    {BEGIN titulo_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN titulo_fieldheader}&nbsp; <A class=tablelinks 
+      {$titulo_orderlinkattrs}>T[itulo</A> &nbsp; {END titulo_fieldheader}</TH>{END titulo_fieldheadercolumn}
+    {BEGIN img_destaque_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN img_destaque_fieldheader}&nbsp; <A class=tablelinks 
+      {$img_destaque_orderlinkattrs}>Foto Destaque</A> &nbsp; {END img_destaque_fieldheader}</TH>{END img_destaque_fieldheadercolumn}
+    {BEGIN img_interna_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN img_interna_fieldheader}&nbsp; <A class=tablelinks 
+      {$img_interna_orderlinkattrs}>Foto Interna</A> &nbsp; {END img_interna_fieldheader}</TH>{END img_interna_fieldheadercolumn}
+    {BEGIN conteudo_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN conteudo_fieldheader}&nbsp; <A class=tablelinks 
+      {$conteudo_orderlinkattrs}>Conteudo</A> &nbsp; {END conteudo_fieldheader}</TH>{END conteudo_fieldheadercolumn}
+    {BEGIN destaque_home_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN destaque_home_fieldheader}&nbsp; <A class=tablelinks 
+      {$destaque_home_orderlinkattrs}>Destaque Home</A> &nbsp; {END destaque_home_fieldheader}</TH>{END destaque_home_fieldheadercolumn}
+    {BEGIN ativo_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN ativo_fieldheader}&nbsp; <A class=tablelinks 
+      {$ativo_orderlinkattrs}>Ativo</A> &nbsp; {END ativo_fieldheader}</TH>{END ativo_fieldheadercolumn}
+    {BEGIN excluir_fieldheadercolumn}<TH class=headerlist align=center>{BEGIN excluir_fieldheader}&nbsp; <A class=tablelinks 
+      {$excluir_orderlinkattrs}>Excluir</A> &nbsp; {END excluir_fieldheader}</TH>{END excluir_fieldheadercolumn}
+    {BEGIN data_fieldheadercolumn}<TH class=headerlist_right2 align=center>{BEGIN data_fieldheader}&nbsp; <A class=tablelinks 
+      {$data_orderlinkattrs}>Data</A> &nbsp; {END data_fieldheader}</TH>{END data_fieldheadercolumn}
+    <TH class=headerlist_right_gif_P>&nbsp;</TH>
+    {BEGIN endrecordheader_block}<TH class=body2></TH>{END endrecordheader_block}{END record_header}</TR></THEAD>{END grid_header}
+  <TBODY>{BEGIN grid_row}
+  <TR vAlign=top {$rowstyle} {$rowattrs}>{BEGIN grid_record}
+    <TD width=5>&nbsp;</TD>
+    {BEGIN listIcons_column}<TD class="borderbody listIcons" vAlign=middle noWrap align=center iEditCont="all">{BEGIN inlineedit_column}{BEGIN inlineedit_link}<A class=tablelinks title=Editar {$inlineeditlink_attrs}><IMG class=listIcon border=0 alt=Editar 
+      align=middle src="images/icon_inline_edit_new.gif"></A>{END inlineedit_link}{END inlineedit_column} {BEGIN view_column}{BEGIN view_link}<A class=tablelinks title=Exibir {$viewlink_attrs}><IMG class=listIcon border=0 alt=Exibir align=middle 
+      src="images/icon_view_new.gif"></A>{END view_link}{END view_column} </TD>{END listIcons_column}
+    {BEGIN checkbox_column}<TD class=borderbody vAlign=middle width=20 align=center>{BEGIN checkbox}<INPUT type=checkbox {$checkbox_attrs}> {END checkbox}</TD>{END checkbox_column}
+    {BEGIN id_fieldcolumn}<TD class=borderbody vAlign=middle {$id_style}>{$id_value} </TD>{END id_fieldcolumn}
+    {BEGIN titulo_fieldcolumn}<TD class=borderbody vAlign=middle {$titulo_style}>{$titulo_value} </TD>{END titulo_fieldcolumn}
+    {BEGIN img_destaque_fieldcolumn}<TD class=borderbody vAlign=middle {$img_destaque_style}>{$img_destaque_value} </TD>{END img_destaque_fieldcolumn}
+    {BEGIN img_interna_fieldcolumn}<TD class=borderbody vAlign=middle {$img_interna_style}>{$img_interna_value} </TD>{END img_interna_fieldcolumn}
+    {BEGIN conteudo_fieldcolumn}<TD class=borderbody vAlign=middle {$conteudo_style}>{$conteudo_value} </TD>{END conteudo_fieldcolumn}
+    {BEGIN destaque_home_fieldcolumn}<TD class=borderbody vAlign=middle {$destaque_home_style}>{$destaque_home_value} </TD>{END destaque_home_fieldcolumn}
+    {BEGIN ativo_fieldcolumn}<TD class=borderbody vAlign=middle {$ativo_style}>{$ativo_value} 
+    </TD>{END ativo_fieldcolumn}
+    {BEGIN excluir_fieldcolumn}<TD class=borderbody vAlign=middle {$excluir_style}>{$excluir_value} </TD>{END excluir_fieldcolumn}
+    {BEGIN data_fieldcolumn}<TD vAlign=middle {$data_style}>{$data_value} 
+    </TD>{END data_fieldcolumn}
+    <TD>&nbsp;</TD>
+    {BEGIN endrecord_block}<TD class=body2 width=20 {$endrecordblock_attrs}>&nbsp;</TD>{END endrecord_block}{END grid_record}</TR>{END grid_row}</TBODY>
+  {BEGIN grid_footer}<TBODY>
+  <TR class=blackshade {$gridFooter_attrs}>{BEGIN record_footer}
+    <TD class=headerlistdown_left2_P height=15></TD>
+    {BEGIN listIcons_column}<TD class=blackshade noWrap>&nbsp;</TD>{END listIcons_column}
+    {BEGIN checkbox_column}<TD class=blackshade>&nbsp;</TD>{END checkbox_column}
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=blackshade>&nbsp;</TD>
+    <TD class=headerlistdown_right2_P height=15>&nbsp;</TD>
+    {BEGIN endrecordfooter_block}<TD class=body2 width=20>&nbsp;</TD>{END endrecordfooter_block}{END record_footer}</TR></TFOOT></TBODY>{END grid_footer}</TABLE></DIV>{END grid_block}</DIV>
+{BEGIN pagination_block}<DIV><B class=xtop><B class=xb1></B><B 
+class=xb2></B><B class=xb3></B><B class=xb4></B></B>
+<DIV id="pagination_block{$id}" class=xboxcontent>{$pagination}</DIV><B class=xbottom><B 
+class=xb4></B><B class=xb3></B><B class=xb2></B><B class=xb1></B></B></DIV>{END pagination_block}
+{BEGIN message_block}<DIV><B class=xtop><B class=xb1></B><B class=xb2></B><B 
+class=xb3></B><B class=xb4></B></B>
+<DIV id="message_block{$id}" class=xboxcontent>{$message}</DIV><B class=xbottom><B 
+class=xb4></B><B class=xb3></B><B class=xb2></B><B 
+class=xb1></B></B></DIV>{END message_block}</DIV>{$footer} {END body}</BODY></HTML>

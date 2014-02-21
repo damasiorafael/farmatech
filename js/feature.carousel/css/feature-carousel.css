@@ -1,0 +1,91 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+#carousel-container {
+  position:relative;
+  width: 1001px;
+}
+#carousel {
+  height: 400px;
+  width: 1001px;
+  position:relative;
+  margin-bottom:0.5em;
+  font-family: "Trebuchet MS";
+}
+#carousel .carousel-image {
+  border:0;
+  display: block;
+}
+
+
+#carousel .carousel-feature {
+  position: absolute;
+  top:-1000px;
+  left:-1000px;
+  border: none;
+  cursor: pointer;
+}
+
+/***********************CONTENT ONDE FICA O TEXTO DENTRO DE CADA ITEM*/
+#carousel .carousel-feature .carousel-caption {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+/***********************TEXTO DENTRO DE CADA ITEM DO CARROCEL*/
+#carousel .carousel-feature .carousel-caption p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#carousel .carousel-feature a {}
+#carousel .carousel-feature a img { position: relative; z-index: 999;}
+
+/***********************NAVEGAÇÃO 1 DE 5 ...*/
+#carousel .tracker-summation-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:230px;
+  padding:3px;
+  margin:3px;
+  display: none;
+}
+
+/***********************NAVEGAÇÃO 1 2 3 4 5...*/
+#carousel .tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+  display: none!important;
+}
+#carousel .tracker-individual-container li {
+  list-style:none;
+}
+#carousel .tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+}
+#carousel .tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+}
+
+/***********************SETA ESQUERDA*/
+#carousel-left { width: 116px; height: 70px; background: url(../../../img/setaEsquerda.png) no-repeat -116px top; position:absolute; bottom: 0; left:367px; cursor:pointer;}
+#carousel-left:hover { background-position: left top;}
+#carousel-left:active { background-position: -116px top;}
+#carousel-left span { display: none;}
+
+/***********************SETA DIREITA*/
+#carousel-right { width: 116px; height: 70px; background: url(../../../img/setaDireita.png) no-repeat left top; position:absolute; bottom: 0; right: 367px; cursor:pointer;}
+#carousel-right:hover { background-position: -116px top;}
+#carousel-right:active { background-position: left top;}
+#carousel-right span { display: none;}

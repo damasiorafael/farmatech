@@ -1,0 +1,66 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+#inner-body {}
+
+/* Stuff to change */
+
+.coda-slider-wrapper { width: 100%; height: 729px; position: relative; overflow: hidden!important; background: url(../../../img/bgProduto.jpg) no-repeat left top; padding-top: 21px;}
+
+.coda-slider-wrapper .titleMaisCores { width: 485px; height: 35px; display: block; float: left; background: url(../../../img/bgHeadMaisCores.png) no-repeat left top; clear: both; margin-top: 30px; padding: 8px 0 0 20px;}
+.coda-slider-wrapper .titleMaisCores h5 { font-size: 13px; color: #882B2E;}
+
+.coda-slider {}
+
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider, .coda-slider .panel { width: 502px;}
+	
+/* Change margin and width of the slider (with dynamic arrows) */
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 502px;}
+.coda-slider-wrapper.arrows .coda-slider {}
+
+/* Arrow styling */
+.coda-slider-wrapper .setasGaleria { position: absolute; top: 170px; left: 0; background: #000; z-index: 9;}
+.coda-nav-left a, .coda-nav-right a { width: 50px; height: 96px; display: block; position: absolute; z-index: 10; background: url(../../../img/setaImagens.png) no-repeat left top; position: absolute;}
+.coda-nav-left a span, .coda-nav-right a span { display: none;}
+.coda-nav-left a { top: 0; left: 0;}
+.coda-nav-left a:link { background-position: left top;}
+.coda-nav-left a:visited { background-position: left top;}
+.coda-nav-left a:hover { background-position: -100px top;}
+.coda-nav-left a:active { background-position: -50px top;}
+
+.coda-nav-right a { top: 0; left: 452px;}
+.coda-nav-right a:link { background-position: right top!important;}
+.coda-nav-right a:visited { background-position: -50px top;}
+.coda-nav-right a:hover { background-position: -150px top!important;}
+.coda-nav-right a:active { background-position: -200px top!important;}
+
+/* Tab nav */
+.coda-slider-wrapper .carousel { position: absolute; bottom: 0; left: 0;}
+#inner-body .coda-nav ul li a.current {}
+
+/* Panel padding */
+.coda-slider .panel-wrapper { position: relative;}
+.coda-slider .panel-wrapper .infProd { width: 501px; height: 63px; position: absolute; bottom: 3px; left: 0; background: #000;}
+.coda-slider .panel-wrapper .infProd span { width: 100%; display: block; margin: 20px 0 0 0; color: #FFF; font-size: 18px; text-align: center; text-transform: uppercase;}
+
+/* Preloader */
+.coda-slider p.loading {}
+
+/* Don't change anything below here unless you know what you're doing */
+
+/* Tabbed nav */
+#inner-body .coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden;}
+#inner-body .coda-nav ul li { display: inline;}
+#inner-body .coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none;}
+
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left }
+.coda-slider .panel-container { position: relative }
+.coda-nav-left, .coda-nav-right { float: left }
+	

@@ -1,0 +1,107 @@
+/* Nome: farmatech.com.br
+ Desenvolvido por: Rafael Damasio
+ Data da Criação: 19-08-2013
+ Última modificação: 19-08-2013/ Rafael Damasio
+ Copyright (c) 2013 Rafael Damasio
+ Versão: 2.0
+*/
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-Regular.eot"); /*somente para o IE*/
+    src: url("../fonts/MyriadPro-Regular.ttf") format("truetype"); /*para outros browsers*/
+}
+
+* { margin: 0; padding: 0; list-style-type: none; font: normal 14px "MyriadPro"; color: #454545; text-decoration: none; border: none; outline: none;}
+html {}
+
+body { width: 100%; overflow-x: hidden;}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+ul {}
+p {}
+em {}
+button { background: none; border: none; display: block; cursor: pointer;}
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none;}
+a:active { text-decoration: none;}
+img { border: none;}
+a img { border: none;}
+object { outline: none!important; border: none!important; margin: 0!important; padding: 0!important;}
+input { border: none; background: none;}
+select { border: none; background: none;}
+ul, ul li { margin: 0; padding: 0;}
+
+/*  LAYOUT  */
+/* TOPO */
+#topo { float: left; width: 100%;}
+#conteudoTopo { margin: auto; width: 960px; height: 123px; position: relative;}
+/* LOGOTIPO */
+#conteudoTopo .logoTopo { width: 252px; height: 75px; float: left; margin-top: 25px;}
+#conteudoTopo .logoTopo .imgLogo {}
+#conteudoTopo .logoTopo a { display: block; width: 252px; height: 75px; background: url(../img/logo.png) no-repeat 0 0;}
+#conteudoTopo .logoTopo a span { display: none;}
+
+/* MENU */
+#conteudoTopo .menuTopo { float: right;}
+#nav { margin-top: 60px;}
+#nav li { float: left; height: 45px; text-align: center;}
+#nav li a { width: 100%; height: 100%; padding: 0 15px 3px; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear;}
+#nav li a:hover { color: #FD8232;}
+/* FIM TOPO */
+
+/* CONTEUDO */
+#conteudo { float: left; width: 100%; background: url(../img/bg-top-conteudo.png) no-repeat center 0 #F9F7F4; padding-bottom: 80px; border-top: 3px solid #FFEDA9;}
+#conteudo .containerConteudo { margin: 40px auto 0; width: 960px;}
+/* FIM CONTEUDO */
+
+/* RODAPE */
+#rodape { float: left; width: 100%; height: 245px; background: url(../img/bg-rodape.jpg) no-repeat center 0;}
+#rodape .containerRodape { margin: auto; width: 960px;}
+#itensRodape_1 { float: left; width: 960px; height: 150px; margin-top: 40px;}
+#itensRodape_1 .boxRodape { float: left; margin-right: 20px;}
+#itensRodape_1 .boxRodape h3 { font: bold 18px "MyriadPro"; color: #6E6E6E; margin-bottom: 25px; display: block; width: 100%;}
+#itensRodape_1 .boxRodape ul { float: left; width: 280px;}
+#itensRodape_1 .boxRodape ul li { float: left; width: 140px; margin-bottom: 2px;}
+#itensRodape_1 .boxRodape ul li a { font: 18px "MyriadPro"; color: #6E6E6E;}
+
+#itensRodape_1 .boxRodape .socialNetworks {}
+#itensRodape_1 .boxRodape .socialNetworks li { width: 100%; height: 25px; margin-bottom: 5px;}
+#itensRodape_1 .boxRodape .socialNetworks li * { float: left;}
+#itensRodape_1 .boxRodape .socialNetworks li a { display: block; padding: 4px 0 0 35px; position: relative; font: 18px "MyriadPro";}
+#itensRodape_1 .boxRodape .socialNetworks li a span { width: 30px; height: 30px; display: block; background: url(../img/bg-social-networks.png) no-repeat 0 0; position: absolute; left: 0; top: 0;}
+#itensRodape_1 .boxRodape .socialNetworks li a span.bgTwitter {}
+#itensRodape_1 .boxRodape .socialNetworks li a span.bgFace { background-position: 0 -30px;}
+#itensRodape_1 .boxRodape .socialNetworks li a span.bgLinkedin { background-position: 0 -60px;}
+
+#itensRodape_1 .boxRodape .vcard {}
+#itensRodape_1 .boxRodape .vcard .fn {}
+#itensRodape_1 .boxRodape .vcard span.adr {}
+#itensRodape_1 .boxRodape .vcard span.adr * { display: block; height: 20px; font: 18px "MyriadPro";}
+#itensRodape_1 .boxRodape .vcard span.adr .street-address { color: #6E6E6E;}
+#itensRodape_1 .boxRodape .vcard span.adr .region { color: #6E6E6E;}
+#itensRodape_1 .boxRodape .vcard span.adr .locality { color: #6E6E6E;}
+#itensRodape_1 .boxRodape .vcard span.adr .title-postal-code { color: #6E6E6E; float: left;}
+#itensRodape_1 .boxRodape .vcard span.adr .postal-code { color: #6E6E6E; float: left; margin-left: 5px;}
+#itensRodape_1 .boxRodape .title-telefone { color: #6E6E6E;}
+#itensRodape_1 .boxRodape .telefone { color: #6E6E6E; margin-left: 5px;}
+#itensRodape_1 .boxRodape .telefone-gratuito { color: #6E6E6E; clear: both;}
+#itensRodape_1 .boxRodape .emailRodape { color: #6E6E6E; font: 18px "MyriadPro";}
+
+#itensRodape_1 .boxRodape2 { width: 200px;}
+
+#itensRodape_1 .boxRodape3 { width: 250px;}
+#itensRodape_1 .boxRodape3 span { display: block; float: left; height: 20px; font: 18px "MyriadPro";}
+
+#itensRodape_1 .boxRodape4 { width: 150px;}
+
+#itensRodape_2 { margin: 15px auto; float: left; width: 100%; text-align: center;}
+#itensRodape_2 .copyrightRodape { color: #6E6E6E; margin: auto; text-align: center; font: 14px "MyriadPro";}
+/* MICROFORMATS */
+.geo, .photo, .title, .org, .title-tel, .tel, .email, .copyright, .url, .fn { display: none;}
+/* FIM MICROFORMATS */

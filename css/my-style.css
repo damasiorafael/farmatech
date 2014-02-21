@@ -1,0 +1,673 @@
+/*!
+ * CSS Five Diamonds - Admin
+ * 
+ * Copyright 2013
+ * 
+ *
+ */
+
+* { list-style: none; margin: 0; padding: 0; outline: 0;}
+
+body { font-family: Calibri, Helvetica, sans-serif!important; overflow-x: hidden; display: none;}
+
+.hero-unit { border-radius: 0; padding-top: 0; margin-bottom: 0;}
+
+.nav-five { background: #CACDCF!important; box-shadow: none!important; min-height: 32px!important; height: 32px!important; border-radius: 0!important;}
+
+.nav-five .container { width: 1062px;}
+
+.navbar { margin: 0;}
+
+.form-login { margin-top: 1px;}
+
+.form-horizontal .control-group { margin: 0 10px 0 0;}
+.form-horizontal .control-label { width: auto;}
+.form-horizontal .control-label label { color: #58595b; font-size: 13px; text-transform: uppercase; margin-right: 5px;}
+.form-horizontal .controls { margin: 0;}
+.form-horizontal .controls input.span1 { width: 83px; min-height: 17px; height: 17px; margin-top: 5px; padding: 0; border-radius: 0; border: none;}
+.navbar-form input, .navbar-form select, .navbar-form .radio, .navbar-form .checkbox { margin: 0;}
+.form-horizontal .controls .btn { border-radius: 0; border: 0!important; padding: 1px 10px 2px; height: auto; font: 11px Calibri, Helvetica, sans-serif!important; text-transform: uppercase; margin-top: 5px;}
+
+.container-fluid { padding: 0; position: relative;}
+.container-fluid-top .hero-unit { border-radius: 0; background: url(../img/enf-top-home.png) no-repeat bottom right, -moz-linear-gradient(top, #FFFFFF, #EAEBEB); background: url(../img/enf-top-home.png) no-repeat bottom right, -webkit-linear-gradient(top, #FFFFFF, #EAEBEB); background: url(../img/enf-top-home.png) no-repeat bottom right, -o-linear-gradient(top, #FFFFFF, #EAEBEB); background: url(../img/enf-top-home.png) no-repeat bottom right, -ms-linear-gradient(top, #FFFFFF, #EAEBEB); background: url(../img/enf-top-home.png) no-repeat bottom right, linear-gradient(top, #FFFFFF, #EAEBEB); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#EAEBEB)"; height: 107px; padding: 8px 21px; margin-bottom: 0;}
+a.brand-five { width: 265px; height: 100px; display: block; background: url(../img/logo.png) 0 0 no-repeat;}
+a.brand-five-2 { width: 265px; height: 100px; display: block; background: url(../img/logo.png) 0 0 no-repeat;}
+a.brand-five span { display: none;}
+
+p.pTitleRid { font-size: 50px; margin-top: 45px; text-align: right; margin-right: 50%; line-height: 50px;}
+
+.navbar-inner { border: 0;}
+
+.name_store_topo { font-size: 60px; margin-top: 35px;}
+
+
+/* MENU */
+.nav-five.navbar-menu { background: #000!important;}
+.navbar-menu .container { width: 1062px;}
+.nav-list { padding: 0;}
+.navbar .nav > li { padding: 0 15px; float: left;}
+.navbar .nav > li > a { float: left; padding: 6px 12px 0 17px!important; font-family: Calibri, Helvetica, sans-serif; color: #FFF; font-size: 16px; text-transform: uppercase; background: none; box-shadow: none;}
+.navbar .nav > li:nth-child(1) > a { padding-left: 0!important;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus { background: none; box-shadow: none; color: #FFF; text-shadow: none;}
+.navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus { background: none; box-shadow: none; color: #FFF; text-shadow: none;}
+.navbar .nav > li > a:hover, .navbar .nav > .active > a:hover { text-shadow: 0 0 0 #FFF!important; box-shadow: 0 0 0 #FFF!important;}
+.navbar .nav li.active > a { font-weight: bold;}
+/* MENU */
+
+
+/* CAROUSEL */
+.carousel { margin-top: 0;}
+.container-fluid-carousel .hero-unit {
+	padding: 0;
+	height: 598px;
+	padding-top: 22px;
+	background: -webkit-linear-gradient(top, #E2E2E2, #BDBDC0);
+	background:    -moz-linear-gradient(top, #E2E2E2, #BDBDC0);
+	background:     -ms-linear-gradient(top, #E2E2E2, #BDBDC0);
+	background:      -o-linear-gradient(top, #E2E2E2, #BDBDC0);
+	background:         linear-gradient(top, #E2E2E2, #BDBDC0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E2E2E2, endColorstr=#BDBDC0)";
+}
+.container-fluid-carousel .container { width: 1062px; margin: auto;}
+.carousel-indicators { display: none;}
+.carousel .item { overflow: hidden;}
+.container-fluid-carousel .container img { margin-left: 141px;}
+.item-img-carousel { width: 1062px; height: 527px; background: url(../img/landscape.jpg.png) no-repeat 0 0;}
+.carousel-caption { position: absolute; background: none; opacity: 1; width: 496px; top: 0; height: 527px; z-index: 1010;}
+
+.carousel .item:nth-child(1) .carousel-caption { background: url(../img/bg-caption-1.png) no-repeat 0 0;}
+.carousel .item:nth-child(2) .carousel-caption { background: url(../img/bg-caption-2.png) no-repeat 0 0;}
+.carousel .item:nth-child(3) .carousel-caption { background: url(../img/bg-caption-3.png) no-repeat 0 0;}
+.carousel .item:nth-child(4) .carousel-caption { background: url(../img/bg-caption-4.png) no-repeat 0 0;}
+
+.carousel-control { top: 249px; left: -42px; width: 21px; height: 35px; border-radius: 0; border: none; background: url(../img/arrow-left.png) no-repeat 0 0 transparent;}
+.carousel-control.right { right: -42px; background: url(../img/arrow-right.png) no-repeat 0 0 transparent;}
+
+.container-fluid-carousel h3 { font-size: 35px; color: #FFF; font-weight: normal; line-height: 40px; width: 327px; margin: 40px 0 0 15px;}
+.container-fluid-carousel p { font-size: 20px; color: #FFF; font-weight: normal; line-height: 25px; width: 347px; margin: 20px 0 0 15px;}
+
+.carousel .item:nth-child(1) .carousel-caption h3 { width: 327px;}
+.carousel .item:nth-child(2) .carousel-caption h3 { width: 357px;}
+.carousel .item:nth-child(3) .carousel-caption h3 { width: 327px;}
+.carousel .item:nth-child(4) .carousel-caption h3 { width: 324px;}
+
+.carousel .item:nth-child(1) .carousel-caption p { width: 347px;}
+.carousel .item:nth-child(2) .carousel-caption p { width: 310px;}
+.carousel .item:nth-child(3) .carousel-caption p { width: 302px;}
+.carousel .item:nth-child(4) .carousel-caption p { width: 280px;}
+
+@keyframes giro {
+	0% { /*-webkit-transform:rotate(0deg);*/}
+	50% { transform:rotate(180deg);}
+	100% { transform:rotate(360deg);}
+}
+
+@-webkit-keyframes giro {
+	0% { /*-webkit-transform:rotate(0deg);*/}
+	50% { -webkit-transform:rotate(180deg);}
+	100% { -webkit-transform:rotate(360deg);}
+}
+
+.animate-in-carousel { position: absolute; top: 0; left: 0; width: 1062px; height: 527px;}
+.animate-in-carousel > div { position: absolute;}
+.animate-in-carousel > div > div { width: 208px; height: 209px; background: #0FF; position: absolute;}
+
+.cont-celeula-1 { top: 10px; left: 272px; z-index: 960; width: 1000px; height: 1000px; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-1 .celula-1 { background: url(../img/celula-1.png) no-repeat 0 0; animation-name: giro; animation-duration: 30s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-2 { top: -61px; left: 593px; z-index: 990; width: 900px; height: 900px; animation-name: giro; animation-duration: 300s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-2 .celula-2 { background: url(../img/celula-2.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-3 { top: 64px; left: 502px; z-index: 980; width: 800px; height: 800px; animation-name: giro; animation-duration: 350s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-3 .celula-3 { background: url(../img/celula-3.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-4 { top: 86px; left: 716px; z-index: 970; width: 700px; height: 700px; animation-name: giro; animation-duration: 250s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-4 .celula-4 { width: 248px; height: 253px; background: url(../img/celula-4.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 100s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-5 { top: 157px; left: 393px; z-index: 960; width: 600px; height: 600px; animation-name: giro; animation-duration: 800s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-5 .celula-5 { width: 248px; height: 253px; background: url(../img/celula-5.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 100s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-6 { top: 352px; left: 254px; z-index: 950; width: 500px; height: 500px; animation-name: giro; animation-duration: 300s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-6 .celula-6 { background: url(../img/celula-6.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-7 { top: 330px; left: 583px; z-index: 940; width: 400px; height: 400px; animation-name: giro; animation-duration: 900s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-7 .celula-7 { background: url(../img/celula-7.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+.cont-celeula-8 { top: 261px; left: 904px; z-index: 930; width: 300px; height: 300px; animation-name: giro; animation-duration: 100s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+.cont-celeula-8 .celula-8 { background: url(../img/celula-8.png) no-repeat 0 0 transparent; animation-name: giro; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: normal;}
+
+/* SAFARI AND CHROME */
+.cont-celeula-1 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-1 .celula-1 { -webkit-animation-name: giro; -webkit-animation-duration: `; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-2 { -webkit-animation-name: giro; -webkit-animation-duration: 300s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-2 .celula-2 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-3 { -webkit-animation-name: giro; -webkit-animation-duration: 350s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-3 .celula-3 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-4 { -webkit-animation-name: giro; -webkit-animation-duration: 250s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-4 .celula-4 { -webkit-animation-name: giro; -webkit-animation-duration: 100s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-5 { -webkit-animation-name: giro; -webkit-animation-duration: 800s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-5 .celula-5 { -webkit-animation-name: giro; -webkit-animation-duration: 100s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-6 { -webkit-animation-name: giro; -webkit-animation-duration: 300s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-6 .celula-6 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-7 { -webkit-animation-name: giro; -webkit-animation-duration: 900s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-7 .celula-7 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-8 { -webkit-animation-name: giro; -webkit-animation-duration: 100s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+.cont-celeula-8 .celula-8 { -webkit-animation-name: giro; -webkit-animation-duration: 45s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: normal;}
+/* CAROUSEL */
+
+
+
+/* MODULOS INTERNOS */
+.container-internas { width: 1062px;}
+.hero-unit-internas { background: #FFF!important;}
+.hero-unit-no-bg { background-image: none!important; background: -moz-linear-gradient(top, #FFFFFF, #EAEBEB)!important; background: -webkit-linear-gradient(top, #FFFFFF, #EAEBEB)!important; background: -o-linear-gradient(top, #FFFFFF, #EAEBEB)!important; background: -ms-linear-gradient(top, #FFFFFF, #EAEBEB)!important; background: linear-gradient(top, #FFFFFF, #EAEBEB)!important; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#EAEBEB)";}
+
+.container-fluid-bg-internas { background: url(../img/bg-enfeite-internas.png) no-repeat -1px -1px; position: absolute; top: 0; left: 0; z-index: 999; display: block!important; width: 93px; height: 143px;}
+.container-fluid-bg-internas-empresa { background: url(../img/bg-enfeite-empresa.png) no-repeat -1px -1px; position: absolute; top: 0; right: -1px; z-index: 999; display: block!important; width:669px; height: 597px;}
+.container-fluid-bg-internas-nutricao-celular { background: url(../img/bg-enfeite-nutricao-celular.png) no-repeat -1px -1px; position: absolute; top: 0; right: -1px; z-index: 999; display: block!important; width:697px; height: 629px;}
+
+.hero-unit-internas .container-internas h3 { color: #f3942e; font-weight: bold; font-size: 40px; text-transform: uppercase; display: block; margin: 43px 0 25px;}
+.hero-unit-internas .container-internas p { color: #6d6e71; font-size: 14px; line-height: 21px;}
+.hero-unit-internas .container-internas p strong { color: #f3942e;}
+
+.hero-unit-internas .container-internas h4 { color: #f3942e; display: block; font-size: 25px; font-weight: normal; margin: 37px 0 20px;}
+
+.hero-unit-internas .container-internas .span4-adaptative { width: 187px;}
+
+.hero-unit-internas .container-internas .bg-missao-itens { background: url(../img/bg-lista-missao.png) no-repeat 0 0; height: 137px; margin-top: 86px;}
+
+.hero-unit-internas .container-internas .list-missao { float: left; margin: 81px 0 0 0;}
+.hero-unit-internas .container-internas .list-missao li { line-height: 29px; float: left; width: 100%;}
+.hero-unit-internas .container-internas .list-missao li span { display: block; float: left;}
+.hero-unit-internas .container-internas .list-missao .bg-diamond { width: 16px; height: 12px; margin: 9px 10px 0 0; background: url(../img/bg-diamonds-mini.png) no-repeat 0 0;}
+
+.par-destaque-nutri { text-transform: uppercase; font-size: 14px; color: #6D6E71; margin: 118px 12px 0 0;}
+
+.container-margin-bottom { margin-bottom: 60px;}
+
+.lista-atuacao { margin-top: 77px!important;}
+.lista-atuacao li { line-height: 37px!important;}
+.lista-atuacao .bg-diamond { margin-top: 11px!important; width: 20px!important; height: 15px!important;}
+.lista-atuacao .diamond-blue { background: url(../img/diamond-blue.jpg) no-repeat 0 0!important;}
+.lista-atuacao .diamond-green { background: url(../img/diamond-green.jpg) no-repeat 0 0!important;}
+.lista-atuacao .diamond-purple { background: url(../img/diamond-purple.jpg) no-repeat 0 0!important;}
+.lista-atuacao .diamond-orange { background: url(../img/diamond-orange.jpg) no-repeat 0 0!important;}
+
+.lista-atuacao .item-blue { color: #00ACED;}
+.lista-atuacao .item-green { color: #009F88;}
+.lista-atuacao .item-purple { color: #71178F;}
+.lista-atuacao .item-orange { color: #ED542D;}
+
+
+/****** PRODUTOS ******/
+.hero-unit-produtos { padding-bottom: 0;}
+.container-produtos { width: 1224px!important;}
+.nav-linha-produtos { float: left; margin-left: 0;}
+.nav-linha-produtos li { width: 299px; float: left; overflow: hidden;}
+.nav-linha-produtos li a { display: block; width: 306px; height: 620px; text-decoration: none; color: #FFF;}
+
+.nav-linha-produtos li .add-imagem-linha { position: relative; height: 405px; overflow: hidden;}
+.nav-linha-produtos li .title-linha { position: absolute; top: 0; left: 0; width: 298px; height: 56px; background: url(../img/sprite-titulos.png) no-repeat; z-index: 2}
+
+.nav-linha-produtos li  .enfeite-animate {position: absolute; top: 0; left: -298px; width: 298px; height: 56px; background: url(../img/sprite-titulos.png) no-repeat ;}
+.nav-linha-produtos li.linha-blue a  .enfeite-animate {background-position: 0 -58px; z-index: 3;}
+.nav-linha-produtos li.linha-green a  .enfeite-animate {background-position: -299px -58px; z-index: 3;}
+.nav-linha-produtos li.linha-orange a  .enfeite-animate {background-position: -599px -58px; z-index: 3;}
+.nav-linha-produtos li.linha-purple a  .enfeite-animate {background-position: -900px -58px; z-index: 3;}
+.nav-linha-produtos li .tx-title-linha {display: block; text-align: center; line-height: 48px; position: absolute; width: 100%; z-index: 4;}
+.nav-linha-produtos li img {height: 405px; 
+	/*filter: grayscale(1) blur(1px);
+	-webkit-filter: grayscale(1) blur(1px);
+	-moz-filter: grayscale(1) blur(1px);
+	-o-filter: grayscale(1) blur(1px);
+	-ms-filter: grayscale(1) blur(1px); 
+	*/
+	-webkit-transition: all 1s linear; 
+	-moz-transition:  all 1s linear; 
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+/******************** ANIMACOES *******************/
+@-webkit-keyframes fadeOut {
+	0% {opacity: 1;}
+	40%{opacity: 0}
+	100% {opacity: 0;}
+}
+@-moz-keyframes fadeOut {
+	0% {opacity: 1;}
+	40%{opacity: 0}
+	100% {opacity: 0;}
+}
+@-o-keyframes fadeOut {
+	0% {opacity: 1;}
+	40%{opacity: 0}
+	100% {opacity: 0;}
+}
+@keyframes fadeOut {
+	0% {opacity: 1;}
+	40%{opacity: 0}
+	100% {opacity: 0;}
+}
+/*----------------------------*/
+@-webkit-keyframes animacao {
+	0% {left:-500px; top:0px; opacity:0; transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+  	60% {left:40px; opacity:1;}
+  	80% {left:-20px;}
+  	100% {left:0px; top:0px;opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+}
+@-moz-keyframes animacao {
+	0% {left:-500px; top:0px; opacity:0; transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+  	60% {left:40px; opacity:1;}
+  	80% {left:-20px;}
+  	100% {left:0px; top:0px;opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+}
+@-o-keyframes animacao {
+	0% {left:-500px; top:0px; opacity:0; transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+  	60% {left:40px; opacity:1;}
+  	80% {left:-20px;}
+  	100% {left:0px; top:0px;opacity:1;
+    -o-transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+}
+@keyframes animacao {
+	0% {left:-500px; top:0px; opacity:0; transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+  	60% {left:40px; opacity:1;}
+  	80% {left:-20px;}
+  	100% {left:0px; top:0px;opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;}
+}
+
+/*----------------------------*/
+@-webkit-keyframes bounceInDown {
+	0% {opacity: 0;-webkit-transform: translateY(-2000px);}
+	60% {opacity: 1;-webkit-transform: translateY(30px);}
+	80% {-webkit-transform: translateY(-10px);}
+	100% {-webkit-transform: translateY(0);}
+}
+@-moz-keyframes bounceInDown {
+	0% {opacity: 0;-moz-transform: translateY(-2000px);}
+	60% {opacity: 1;-moz-transform: translateY(30px);}
+	80% {-moz-transform: translateY(-10px);}
+	100% {-moz-transform: translateY(0);}
+}
+@-o-keyframes bounceInDown {
+	0% {opacity: 0;-o-transform: translateY(-2000px);}
+	60% {opacity: 1;-o-transform: translateY(30px);}
+	80% {-o-transform: translateY(-10px);}
+	100% {-o-transform: translateY(0);}
+}
+@keyframes bounceInDown {
+	0% {opacity: 0;transform: translateY(-2000px);}
+	60% {opacity: 1;transform: translateY(30px);}
+	80% {transform: translateY(-10px);}
+	100% {transform: translateY(0);}
+}
+
+
+.nav-linha-produtos li a:hover .title-linha { 
+	-webkit-animation: fadeOut 2s ease-out  ;
+	-moz-animation: fadeOut 2s ease-out  ;
+	-o-animation: fadeOut 2s ease-out  ;
+	animation: fadeOut 2s ease-out  ;
+}
+.nav-linha-produtos li a:hover .enfeite-animate { left: 0; 
+	-webkit-animation: animacao 1.5s ease   ;
+	-moz-animation: animacao 1.5s ease  ;
+	-o-animation: animacao 1.5s ease  ;
+	animation: animacao 1.5s ease  ;
+}
+.nav-linha-produtos li a:hover .tx-title-linha {
+	-webkit-animation: bounceInDown 1s ease-out;
+	-moz-animation: bounceInDown 1s ease-out;
+	-o-animation: bounceInDown 1s ease-out;
+	animation: bounceInDown 1s ease-out;
+}
+.nav-linha-produtos li a:hover img {
+	filter: grayscale(0) blur(0px);
+	-webkit-filter: grayscale(0) blur(0px);
+	-moz-filter: grayscale(0) blur(0px);
+	-o-filter: grayscale(0) blur(0px);
+	-ms-filter: grayscale(0) blur(0px); 
+
+	zoom: 1.1; /* IE */
+	-moz-transform: scale(1.1); /* Firefox */
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(1.1); /* Opera */
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(1.1); /* Safari And Chrome */
+	-webkit-transform-origin: 0 0;
+}
+
+.nav-linha-produtos li .add-link-linha {}
+.nav-linha-produtos li .add-link-linha .toggle-color{font-size: 24px; font-family: Calibri, Arial, sans-serifbook; max-width: 240px; display: inline-block;text-transform: uppercase; padding-left: 15px; margin-top: 30px;}
+.nav-linha-produtos li .add-link-linha .ver-produtos{font-size: 14px; color: #231f20;text-transform: uppercase; margin-left: 15px;}
+.nav-linha-produtos li .add-container-fluid-bg-internas-nutricao-celularlink-linha .ver-produtos { color: #000;}
+
+.nav-linha-produtos li.linha-blue {}
+/****** PRODUTOS ******/
+
+/* MODULOS INTERNOS */
+
+
+
+/* RODAPE */
+.container-fluid-rodape {}
+.container-fluid-rodape .hero-unit { padding: 0; height: auto; position: relative; background: #000; padding-bottom: 10px;}
+.container-fluid-rodape .hero-unit h3 { margin: 0; padding: 14px 0 0 21px; color: #FEFEFE; font-size: 16px; font-weight: normal; position: absolute;}
+.container-fluid-rodape .hero-unit .bt-five-diamonds-rodape {
+	width: 86px;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	border-bottom: 29px solid #CECCCC;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+
+.container-fluid-rodape .hero-unit div.bt-five-diamonds-rodape a { bottom: 0; opacity: 1; position: absolute; top: -1px!important; height: 25px; text-transform: uppercase; left: 8px; font-size: 11px; color: #000;}
+.container-fluid-rodape .hero-unit div.bt-five-diamonds-rodape a:hover { text-decoration: none;}
+.flor-bottom { position: absolute; bottom: 2px; right: 10px; width: 33px; height: 38px; background: url(../img/bgFlorBottom.jpg) no-repeat 0 0;}
+
+.container-fluid-rodape .container { margin-top: 0; padding: 0;}
+.container-fluid-rodape .row-fluid h4 { margin-top: 10px; font-size: 14px; color: #FEFEFE; font-family: Calibri, Arial, sans-serif; font-weight: normal;}
+
+p.copyright { color: #FEFEFE; font-size: 11px; float: right; margin-right: 4px;}
+
+.nav-list-rodape { float: right; margin-right: 18px;}
+.nav-list-rodape li { float: left; padding: 0;}
+.nav-list-rodape li a { font-size: 12px; margin: 0; color: #FEFEFE; text-shadow: none;}
+.nav-list-rodape li a:hover { background: none; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);}
+/* RODAPE */
+
+@media (max-width: 1220px) {
+	p.pTitleRid { margin-right: 40%;}
+}
+
+@media (max-width: 1028px) {
+	p.pTitleRid { margin-right: 35%;}
+}
+
+@media (max-width: 953px) {
+	.hero-unit { min-height: 200px;}
+	p.pTitleRid { margin-right: 0; width: 100%; text-align: center;}
+	.row-fluid .span3 { width: 100%;}
+	.row-fluid .span9 { width: 100%;}
+}
+
+@media (max-width: 767px) {
+	body { padding: 0}
+}
+
+@media (max-width: 980px) {
+	.nav-five.navbar-inner { max-height: 32px!important; height: 32px!important; min-height: 32px!important; padding: 0 20px!important;}
+	.nav-five .container { width: 100%;}
+}
+
+@media (max-width: 480px) {
+	.nav-five.navbar-inner { max-height: 32px!important; height: 32px!important; min-height: 32px!important; padding: 0!important;}
+	.form-login { width: 400px!important;}
+	.form-horizontal .control-label { width: 150px;}
+	.form-horizontal .control-label label { line-height: 27px;}
+	.form-horizontal .controls input.span1 {}
+	.form-horizontal .controls .btn {}
+}
+
+@media (max-width: 412px) {
+	.form-login { width: auto!important;}
+	.form-horizontal .control-label { max-width: 130px;}
+	.form-horizontal .control-label label { max-width: 35px;}
+	.form-horizontal .controls { width: 55px;}
+}
+
+@media (max-width: 370px) {
+	.nav-five.navbar-inner { min-height: 70px!important; max-height: 70px!important; height: 70px!important;}
+	.form-horizontal .control-group { margin: 0 30px 0 3px;}
+	.form-horizontal .control-label { width: 100%;}
+	.form-horizontal .controls .btn { margin-top: 37px;}
+	.form-horizontal .controls input.span1 { width: 100%; float: left; clear: both;}
+	.hero-unit { min-height: 255px;}
+}
+
+@media (max-width: 678px) {
+	.nav-five.navbar-menu { height: 175px!important; min-height: 175px!important;}
+	.nav-list { margin-top: 6px!important;}
+	.navbar .nav > li { width: 100%!important;}
+}
+
+/* CONTATO */
+.container-fluid-bg-internas-contato { background: url(../img/bg-enfeite-contato.png) no-repeat -1px -1px; position: absolute; top: 0; right: -1px; z-index: 999; display: block!important; width:697px; height: 629px;}
+#form-contato { width: 305px; margin-bottom: 100px;}
+#form-contato input[type="text"], #form-contato textarea { border: solid 1px #999999; padding: 0; border-radius: initial;}
+#form-contato input[type="text"] { height: 25px; width: 373px;}
+#form-contato textarea { width: 373px; height: 134px;}
+#form-contato label, #form-contato p { color: #000000; font-family: Myriad Pro; }
+#form-contato label {font-size: 16px; font-weight: bold;}
+#form-contato p { text-align: center; font-size: 12px;}
+#form-contato .btn-group { text-align: center;}
+
+/*FAQ*/
+.hero-unit-internas .container-internas .faq-container p {font-family: Verdana; font-size: 12px;}
+.hero-unit-internas .container-internas .faq-container p.faq-question { font-size: 14px; color: #f3942e;}
+
+/*LINHA OFFICE*/
+.container-fluid-bg-internas-office { background: url(../img/bg-enfeite-internas-office.png) no-repeat; width: 395px; height: 633px; padding-top: 30px; position: absolute;}
+.container-internas-office .bg-diamonds-small{position: absolute; bottom: 0; background: url(../img/bg-diamonds-office.png) no-repeat; width: 370px; height: 463px; left: 0;}
+.container-fluid-bg-internas-office h3, small { color: #ffffff; margin: auto; margin-bottom: 20px;}
+.container-fluid-bg-internas-office h3 {width: 235px; font-size: 60px; font-family: Calibri, Arial, sans-serifbook; font-weight: normal; line-height: 55px;}
+.container-fluid-bg-internas-office small { font-family: Calibri, Arial, sans-serif; font-size: 18px; display: block; width: 235px; line-height: 22px;}
+.row-fluid-menu-produtos {height: 50px;}
+.navbar .nav-list-produtos > li > a { color: #000; padding-top: 0; line-height: 14px; padding-top: 0!important;}
+.navbar .nav-list-produtos > li > a:not(.last-child) {border-right: solid 1px #000;}
+.navbar .nav-list-produtos {margin-top: 30px;}
+.navbar .nav-list-produtos > li.active > a.linha-office {color: #00aced}
+.navbar .nav-list-produtos > li.active > a.linha-weight {color: #009f88}
+.navbar .nav-list-produtos > li.active > a.linha-fitness {color: #ef6d2d}
+.navbar .nav-list-produtos > li.active > a.linha-healthy {color: #803297}
+.navbar .nav-list-produtos > li > a.linha-office:hover {color: #00aced !important}
+.navbar .nav-list-produtos > li > a.linha-weight:hover {color: #009f88 !important}
+.navbar .nav-list-produtos > li > a.linha-fitness:hover {color: #ef6d2d !important}
+.navbar .nav-list-produtos > li > a.linha-healthy:hover {color: #803297 !important}
+.row-fluid.conteudo-produto {margin-top: 106px; min-height: 510px;}
+.descricao-produto .info-preco-frete {border-top: solid 1px #f1f1f1; box-shadow: 0px -1px 0px #ededed; width: 305px; padding: 10px; margin-top: 30px;}
+.color-azul {color: #00aced!important; }
+.color-verde-claro {color: #8bcb47;}
+.color-cinza {color: #6d6e71!important;}
+.color-verde-escuro { color:#009f88!important;}
+.color-laranja { color: #F68E1E!important;}
+.color-amarelo {color: #F3A621}
+.color-roxo {color: #803297!important;}
+.color-vermelho {color: #A72B44!important;}
+.color-azul-escuro {color:#003F81!important;}
+.color-azul-claro {color: #295BAA!important;}
+.color-rosa {color: #C5168C!important;}
+.info-preco-frete .preco.color-azul {font-size: 14px; font-family: Calibri, Arial, sans-serif;}
+.info-preco-frete  small {color: #bbbabd; font-size: 12px; font-family: Calibri, Arial, sans-serif;}
+.info-preco-frete a.color-azul  {display: block; font-size: 12px; text-decoration: none; font-family: Calibri, Arial, sans-serif;}
+.container-form-cep {background: #f1f1f1; border-radius: 5px; height: 30px; padding: 5px; }
+.container-form-cep button.btn-primary{margin-top: -10px;}
+#form-cep-frete label {background: url(../img/icone-frete.png) no-repeat; display: inline-block; padding-left: 32px;}
+.info-preco-frete button.btn-success {width: 175px; height: 35px; padding: 0; display: block;}
+.texto-descricao {margin-top: 30px;}
+.texto-descricao h1{font-size: 30px; font-family: Calibri, Arial, sans-serif; margin-bottom: 15px; clear:both; max-width: 250px;}
+.texto-descricao h1 span{display: block; margin-right: 5px; float: left;}
+.texto-descricao p {width: 325px;}
+.texto-descricao .ver-mais {font-family: Calibri, Arial, sans-serif; color: #6d6e71; text-decoration: none; font-size: 14px;}
+.wrapper-info-nutricional {width: 565px;}
+.tabela-nutricional {min-height: 145px; border-radius: 5px; border: solid 1px #40c1f2; font-size: 13px;}
+.tabela-nutricional table {border: none; border-bottom: solid 1px #2cb9f0; border-collapse: collapse; margin-bottom: 0;}
+.tabela-nutricional table td.thead-azul {background: #aee0f9; border-top: transparent!important;}
+.tabela-nutricional table td {border-left: solid 1px #2cb9f0!important; border-top: solid 1px #2cb9f0!important; font-size: 12px; padding: 4px;}
+.tabela-nutricional .col-titulo { text-align: center; width: 87px; vertical-align: middle; border-left: transparent!important; border-top: transparent!important;}
+.tabela-nutricional .info-nutri {width: auto; font-size: 12px !important; padding: 7px; line-height: 15px !important; margin-bottom: 0;}
+.wrapper-info-nutricional .valores-diarios span {font-size: 11px; display: inherit; line-height: 13px; }
+.wrapper-info-nutricional .ingredientes {width: auto; text-transform: uppercase; margin-top: 20px; font-size: 12px!important; line-height: 17px!important}
+.texto-descricao .modal {width: auto; }
+.texto-descricao .modal .modal-header {border-bottom: none;}
+.texto-descricao .modal .modal-body {overflow-y: initial; padding: 30px;}
+#myModal {display: none;}
+
+.modal-backdrop, .modal-backdrop.fade.in {opacity: 0;}
+
+/*WEIGHT MANAGEMENT*/
+.container-fluid-bg-internas-weight { background: url(../img/bg-enfeite-internas-weight.png) no-repeat; width: 300px; height: 633px; padding-top: 30px; position: absolute; padding-right: 97px;}
+.container-internas-weight .bg-diamonds-small{position: absolute; bottom: 0; background: url(../img/bg-diamonds-weight.png) no-repeat; width: 370px; height: 463px; left: 0;}
+.container-fluid-bg-internas-weight h3, small { color: #ffffff; margin: auto; margin-bottom: 20px;}
+.container-fluid-bg-internas-weight h3 {width: 235px; font-size: 60px; font-family: Calibri, Arial, sans-serifbook; font-weight: normal; line-height: 55px;}
+.container-fluid-bg-internas-weight h3 span {font-size: 30px;}
+.container-fluid-bg-internas-weight small { font-family: Calibri, Arial, sans-serif; font-size: 18px; display: block; width: 235px; line-height: 22px;}
+.tabela-nutricional table td.thead-verde-claro {background: #C8E2AD; border-top: transparent!important; border-left: solid 1px #7AC142!important; border-top: solid 1px #7AC142!important; }
+.tabela-nutricional table.color-verde-claro {border-bottom: solid 1px #7AC142!important;}
+.tabela-nutricional table.color-verde-claro td {border-left: solid 1px #7AC142!important; border-top: solid 1px #7AC142!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.verde-claro {min-height: 145px; border-radius: 5px; border: solid 1px #7AC142; font-size: 13px;}
+.wrapper-info-nutricional.verde {width: 305px;}
+.ingredientes strong {font-family: Calibri, Arial, sans-serif; color: #000!important;}
+.modal-body {max-height: none;}
+#myModal2{display: none;}
+.tabela-nutricional table td.thead-verde-escuro {background: #8FBEB4; border-top: transparent!important; border-left: solid 1px #7AC142!important; border-top: solid 1px #7AC142!important; }
+.tabela-nutricional table.color-verde-escuro {border-bottom: solid 1px #007C67!important;}
+.tabela-nutricional table.color-verde-escuro td {border-left: solid 1px #007C67!important; border-top: solid 1px #007C67!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.verde-escuro {min-height: 145px; border-radius: 5px; border: solid 1px #007C67; font-size: 13px;}
+
+/*LINHA FITNESS*/
+.container-fluid-bg-internas-fitness { background: url(../img/bg-enfeite-internas-fitness.png) no-repeat; width: 395px; height: 633px; padding-top: 30px; position: absolute;}
+.container-internas-fitness .bg-diamonds-small{position: absolute; bottom: 0; background: url(../img/bg-diamonds-fitness.png) no-repeat; width: 370px; height: 463px; left: 0;}
+.container-fluid-bg-internas-fitness h3, small { color: #ffffff; margin: auto; margin-bottom: 20px;}
+.container-fluid-bg-internas-fitness h3 {width: 235px; font-size: 60px; font-family: Calibri, Arial, sans-serifbook; font-weight: normal; line-height: 55px;}
+.container-fluid-bg-internas-fitness small { font-family: Calibri, Arial, sans-serif; font-size: 18px; display: block; width: 235px; line-height: 22px;}
+.tabela-nutricional table td.thead-laranja {background: #FED9B3; border-top: transparent!important;}
+.tabela-nutricional table.table-laranja {border-bottom: solid 1px #F68E1E!important;}
+.tabela-nutricional table.table-laranja td {border-left: solid 1px #F68E1E!important; border-top: solid 1px #F68E1E!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.table-laranja {border: solid 1px #F68E1E;}
+.starter, .recovery, .proCollagen, .multiOx, .omega3-Elite, .bioEnergy {min-height: 515px;}
+.recovery, .multiOx, .omega3-Elite, .bioEnergy {margin-top: 80px;}
+.starter .img-produto, .recovery .img-produto, .proCollagen .img-produto, .multiOx .img-produto, .omega3-Elite .img-produto, .bioEnergy .img-produto{ margin-top: 50px; text-align: center;}
+
+/*LINHA HEALTHY AGING*/
+.container-fluid-bg-internas-healthy { background: url(../img/bg-enfeite-internas-healthy.png) no-repeat; width: 285px; height: 633px; padding-top: 30px; position: absolute; padding-right: 110px;}
+.container-internas-healthy .bg-diamonds-small{position: absolute; bottom: 0; left: 0; background: url(../img/bg-diamonds-healthy.png) no-repeat; width: 370px; height: 463px;}
+.container-fluid-bg-internas-healthy h3, small { color: #ffffff; margin: auto; margin-bottom: 20px;}
+.container-fluid-bg-internas-healthy h3 {width: 235px; font-size: 60px; font-family: Calibri, Arial, sans-serifbook; font-weight: normal; line-height: 55px;}
+.container-fluid-bg-internas-healthy small { font-family: Calibri, Arial, sans-serif; font-size: 18px; display: block; width: 235px; line-height: 22px;}
+.tabela-nutricional table td.thead-roxo {background: #BAAED5; border-top: transparent!important;}
+.tabela-nutricional table.table-roxo {border-bottom: solid 1px #803297!important;}
+.tabela-nutricional table.table-roxo td {border-left: solid 1px #803297!important; border-top: solid 1px #803297!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.table-roxo {border: solid 1px #803297;}
+#myModal3 {display: none;}
+#myModal4 {display: none;}
+
+.tabela-nutricional table td.thead-vermelho {background: #DD9995; border-top: transparent!important; /*border-left: solid 1px #7AC142!important; border-top: solid 1px #7AC142!important;*/ }
+.tabela-nutricional table.color-vermelho {border-bottom: solid 1px #A72B44!important;}
+.tabela-nutricional table.color-vermelho td {border-left: solid 1px #A72B44!important; border-top: solid 1px #A72B44!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.vermelho {min-height: 145px; border-radius: 5px; border: solid 1px #A72B44; font-size: 13px;}
+.wrapper-info-nutricional.vermelho {width: 305px;}
+
+.tabela-nutricional table td.thead-azul-escuro {background: #95A7C5; border-top: transparent!important; border-left: solid 1px #003F81!important; border-top: solid 1px #003F81!important; }
+.tabela-nutricional table.color-azul-escuro {border-bottom: solid 1px #003F81!important;}
+.tabela-nutricional table.color-azul-escuro td {border-left: solid 1px #003F81!important; border-top: solid 1px #003F81!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.azul-escuro {min-height: 145px; border-radius: 5px; border: solid 1px #003F81; font-size: 13px;}
+.wrapper-info-nutricional.azul-escuro {width: 305px;}
+
+.tabela-nutricional table td.thead-rosa {background: #EDBDD8; border-top: transparent!important;}
+.tabela-nutricional table.table-rosa {border-bottom: solid 1px #D50C8C!important;}
+.tabela-nutricional table.table-rosa td {border-left: solid 1px #D50C8C!important; border-top: solid 1px #D50C8C!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.table-rosa {border: solid 1px #D50C8C;}
+.wrapper-info-nutricional.rosa, .wrapper-info-nutricional.azul-claro {width: 415px;}
+.wrapper-info-nutricional.azul-claro { margin-left: 15px;}
+
+.tabela-nutricional table td.thead-azul-claro {background: #B1BBDF; border-top: transparent!important;}
+.tabela-nutricional table.table-azul-claro {border-bottom: solid 1px #005CAB!important;}
+.tabela-nutricional table.table-azul-claro td {border-left: solid 1px #005CAB!important; border-top: solid 1px #005CAB!important; font-size: 12px; padding: 4px; color:#000;}
+.tabela-nutricional.table-azul-claro {border: solid 1px #005CAB;}
+
+.tabela-nutricional table td.col-titulo {border-top: transparent!important;border-left: transparent!important;}
+.tabela-nutricional table tr:first-child td {border-top: transparent!important;}
+.tabela-nutricional table.table-tipo2 tr td:first-child {border-left: transparent!important;} 
+.tabela-nutricional table.table-tipo2 th {border-left: transparent!important; border-top: transparent!important;} 
+
+/*PÁGINAS RODAPÉ*/
+.politica-privacidade, .politica-troca-devolucao, .politica-entrega, .pagamento, .atendimento {padding-top: 60px; min-height: 510px;}
+.politica-privacidade h2, .politica-troca-devolucao h2, .politica-entrega h2, .pagamento h2, .atendimento h2, .atendimento h3{min-width: 400px; max-width: 490px; text-align: center; box-shadow: 2px 2px 4px #6B6666;}
+.texto-privacidade, .texto-troca-devolucao, .texto-entrega, .texto-pagamento{padding: 10px; border: solid 2px #ccc; border-radius: 5px; margin-top: 30px; color: #000;}
+.texto-troca-devolucao h3, .texto-entrega h3, .texto-pagamento h3{font-size: 18px!important; color: #000!important; margin: 0!important;}
+.texto-troca-devolucao li, .texto-entrega li, .texto-pagamento li{color: #6d6e71;font-size: 14px;line-height: 21px; list-style-type: disc;}
+.texto-pagamento ol>li {list-style-type: none;}
+.politica-troca-devolucao > p {margin-top: 40px;}
+.atendimento i.icon-email {background: url(../img/icone-email.png); width: 35px; height: 34px; margin-top: -6px; margin-right: 30px;}
+.atendimento i.icon-tel {background: url(../img/icone-telefone.png); width: 36px; height: 36px; margin-top: -6px; margin-right: 30px;}
+.hero-unit-internas .atendimento h3 {display: inline-block; color: #000;font-size: 24px; min-width: 350px;}
+#form-atendimento .control-label {text-align: right; margin-right: 15px; width: 70px;}
+#form-atendimento {width: 445px;}
+#form-atendimento .form-group {margin-bottom: 10px;}
+#form-atendimento textarea {width: 346px; height: 120px;}
+#form-atendimento #txtNome,  #form-atendimento #txtEmail, #form-atendimento #txtCpf{ width: 270px;}
+.inline-block {display: inline-block;}
+.marginLeft83 {margin-left: 83px;}
+.container-internas.atendimento .ligue {color: black;font-size: 22px; margin-left: 67px;}
+
+/*Falta no bootstrap*/
+.col-sm-11{width:100%}.col-sm-10{width:83.33333333333334%}.col-sm-9{width:75%}.col-sm-8{width:66.66666666666666%}.col-sm-7{width:58.333333333333336%}.col-sm-6{width:50%}.col-sm-5{width:41.66666666666667%}.col-sm-4{width:33.33333333333333%}.col-sm-3{width:25%}.col-sm-2{width:16.666666666666664%}.col-sm-1{width:8.333333333333332%}
+
+
+@media (max-width: 767px){
+	[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+	display: block;
+	float: none;
+	width: 94px!important;
+	margin-left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+}
+
+@media (max-width: 1680px){
+	.row-fluid-menu-produtos .span8 {margin-left: 200px!important;}
+}
+
+@media (max-width: 1280px){
+	.row-fluid.conteudo-produto {margin-top: 212px;}
+	.row-fluid-menu-produtos .span8 {margin-left: 300px!important;}
+}
+
+@media (max-width: 1680px) {
+	.produto-left {float: none!important; margin: auto!important;}
+}
+@media (max-width: 767px) {
+	.navbar .nav-list-produtos > li > a:not(.last-child) {border-right: none!important;}
+	.navbar .nav-list-produtos > li > a {margin-bottom: 5px;}
+	.navbar .nav > li > a {padding-left: 0!important;}
+	.row-fluid-menu-produtos .span8 {margin-left: 346px!important; width: 190px!important;}
+}
+@media (max-width: 1680px) {
+	.bg-diamonds-small {z-index: 1;}
+	.conteudo-produto {position: relative; z-index: 2;}
+}
+@media (max-width: 603px) {
+	.produto-left {margin-left: 107px!important;margin-top: 116px!important;}
+	.bg-diamonds-small {background: transparent!important;}
+}
+
+@media (max-width: 1250px) {
+	.container-fluid-bg-internas { display: none!important;}
+}
+
+@media (max-width: 1080px) {
+	.container-fluid-bg-internas-nutricao-celular { display: none!important;}
+}
+
+@media (max-width: 1112px) {
+	.container-fluid-bg-internas-empresa { display: none!important;}
+	.container-fluid-bg-internas-contato { display: none!important;}
+}
+
+@media (max-width: 1428px) {
+	.container-fluid-rodape .hero-unit { padding-bottom: 40px;}
+}
+
+@media (max-width: 1220px) {
+	.container-produtos { width: auto!important;}
+}
+

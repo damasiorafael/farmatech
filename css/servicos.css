@@ -1,0 +1,23 @@
+#nav li a.activeServicos { font-weight: bold; color: #E76B43;}
+#conteudo .containerConteudo { margin-top: 0;}
+#servicos { float: left; width: 580px; margin-top: 36px; padding-top: 18px; position: relative;}
+h2 { color: #FFF; font: normal 18px "MyriadPro"; margin-bottom: 10px;}
+#servicos h2 { display: block; width: 580px; height: 60px; background: url(../img/bg-title-pages.png) no-repeat 0 0; padding: 13px 0 0 33px;}
+/* CONTEUDO PAGINA DE SERVICOS */
+#content-servicos { width: 960px; float: left;}
+#itens-servicos { width: 200px; float: left;}
+ul.titles-servicos { width: 184px; float: left; margin-left: 15px;}
+ul.titles-servicos > li { float: left;}
+ul.titles-servicos li span { width: 158px; float: left; padding: 12px 10px 12px 16px; cursor: pointer; background: url(../img/bgMenuServicos.jpg) repeat-x 0 bottom #FFF; color: #6E6E6E;}
+ul.titles-servicos li span.ativo { background: url(../img/bgMenuServicosAtivo.jpg) repeat-x 0 bottom #FFF; color: #FD8232; font-weight: bold;}
+ul.titles-servicos li span:hover { background: url(../img/bgMenuServicosAtivo.jpg) repeat-x 0 bottom #FFF; color: #FD8232;}
+
+#container-servicos { width: 380px; margin: 10px 0 0 23px; float: left;}
+ul.conteudo-servico { width: 380px; float: left;}
+ul.conteudo-servico > li { float: left; width: 380px; display: none;}
+ul.conteudo-servico > li div {}
+div.img-servico { float: left; display: block; width: 379px; height: 194px; background: url(../img/bgImgServicos.png) no-repeat 0 0; padding: 8px 0 0 9px; margin-top: 15px;}
+div.img-servico > img {}
+ul.conteudo-servico > li div h3 { line-height: 30px; color: #FD8232; font-size: 22px; text-transform: uppercase;}
+ul.conteudo-servico > li div p { margin-top: 15px; color: #6E6E6E; float: left;}
+ul.conteudo-servico > li div p a { color: #fd8232; font-weight: bold;}

@@ -1,0 +1,10 @@
+#nav li a.activeEmpresa { font-weight: bold; color: #E76B43;}
+#conteudo .containerConteudo { margin-top: 0;}
+#empresa { float: left; width: 580px; margin-top: 36px; padding-top: 18px;}
+h2 { color: #FFF; font: normal 18px "MyriadPro"; margin-bottom: 10px;}
+#empresa h2 { display: block; width: 580px; height: 60px; background: url(../img/bg-title-pages.png) no-repeat 0 0; padding: 13px 0 0 33px;}
+span.txtLegenda { font: 14px "MyriadPro"; color: #6e6e6e; display: block; padding-left: 33px;}
+
+#empresa p { margin: 30px auto 0; text-align: center; padding-left: 33px;}
+
+#localizacao { height: 700px;}

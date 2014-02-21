@@ -1,0 +1,4 @@
+html { overflow-x: hidden;}
+/* CORRECOES MENU */
+#nav li {}
+#nav li a { display: block; padding-top: 12px; background: none; height: 30px;}

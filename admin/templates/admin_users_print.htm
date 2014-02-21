@@ -1,0 +1,152 @@
+<html {$html_attrs}>
+<head>
+<title>Add/Edit users</title>
+<link REL="stylesheet" href="include/style.css" type="text/css">
+<!--[if IE]>
+<link REL="stylesheet" href="include/styleIE.css" type="text/css">
+<![endif]-->
+<style>
+.grid_block {  
+margin-top:5px;
+border-collapse: collapse;
+align:center;
+width:95%;
+border:none;
+} 
+.grid_block td { 
+ padding: 5px; 
+ margin: 0px; 
+ border: solid black 1px;
+}
+.grid_block .gridspacing {width:20px;border-top-color:white; border-bottom-color:white;background-color:white}
+@media print 
+{
+	a.pdf {display:none}
+}
+.printpage {page-break-after:always}
+#selpage{margin-left:30px;}
+</style> 
+</head>
+<body style="background-color:white">
+{BEGIN body}
+{$header}
+{BEGIN page}
+
+<h1>Add/Edit users</h1>
+{BEGIN page_number}
+<div id='selpage'>Página {$pageno} de {$maxpages} </div>
+{END page_number}
+
+{BEGIN grid_block}
+
+<table align="center" cellpadding=5 class="grid_block">
+{BEGIN grid_header}
+<tr>
+{BEGIN record_header}
+{BEGIN id_fieldheadercolumn}
+	<td>
+{BEGIN id_fieldheader}
+	<b>Id</b>
+{END id_fieldheader}
+	</td>
+{END id_fieldheadercolumn}
+{BEGIN email_fieldheadercolumn}
+	<td>
+{BEGIN email_fieldheader}
+	<b>Email</b>
+{END email_fieldheader}
+	</td>
+{END email_fieldheadercolumn}
+{BEGIN usuario_fieldheadercolumn}
+	<td>
+{BEGIN usuario_fieldheader}
+	<b>Usuario</b>
+{END usuario_fieldheader}
+	</td>
+{END usuario_fieldheadercolumn}
+{BEGIN senha_fieldheadercolumn}
+	<td>
+{BEGIN senha_fieldheader}
+	<b>Senha</b>
+{END senha_fieldheader}
+	</td>
+{END senha_fieldheadercolumn}
+{BEGIN ativo_fieldheadercolumn}
+	<td>
+{BEGIN ativo_fieldheader}
+	<b>Ativo</b>
+{END ativo_fieldheader}
+	</td>
+{END ativo_fieldheadercolumn}
+{BEGIN excluir_fieldheadercolumn}
+	<td>
+{BEGIN excluir_fieldheader}
+	<b>Excluir</b>
+{END excluir_fieldheader}
+	</td>
+{END excluir_fieldheadercolumn}
+{BEGIN data_fieldheadercolumn}
+	<td>
+{BEGIN data_fieldheader}
+	<b>Data</b>
+{END data_fieldheader}
+	</td>
+{END data_fieldheadercolumn}
+{BEGIN endrecordheader_block}
+	<td class="gridspacing">&nbsp;</td>
+{END endrecordheader_block}
+{END record_header}
+</tr>
+{END grid_header}
+{BEGIN grid_row}
+<tr valign=top {$rowstyle} {$rowattrs}>
+{BEGIN grid_record}
+{BEGIN id_fieldcolumn}
+<td {$id_style}>
+{$id_value}
+</td>
+{END id_fieldcolumn}
+{BEGIN email_fieldcolumn}
+<td {$email_style}>
+{$email_value}
+</td>
+{END email_fieldcolumn}
+{BEGIN usuario_fieldcolumn}
+<td {$usuario_style}>
+{$usuario_value}
+</td>
+{END usuario_fieldcolumn}
+{BEGIN senha_fieldcolumn}
+<td {$senha_style}>
+{$senha_value}
+</td>
+{END senha_fieldcolumn}
+{BEGIN ativo_fieldcolumn}
+<td {$ativo_style}>
+{$ativo_value}
+</td>
+{END ativo_fieldcolumn}
+{BEGIN excluir_fieldcolumn}
+<td {$excluir_style}>
+{$excluir_value}
+</td>
+{END excluir_fieldcolumn}
+{BEGIN data_fieldcolumn}
+<td {$data_style}>
+{$data_value}
+</td>
+{END data_fieldcolumn}
+{BEGIN endrecord_block}
+<td class="gridspacing">&nbsp;</td>
+{END endrecord_block}
+{END grid_record}
+</tr>
+{END grid_row}
+<!-- totals row -->
+</table>
+{END grid_block}
+{END page}
+{$footer}
+{END body}
+</body>
+</html>

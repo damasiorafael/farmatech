@@ -1,0 +1,34 @@
+#nav li a.activeHome { font-weight: bold; color: #E76B43;}
+
+#conteudo { border-top: none; background-image: none;}
+/* BANNER HOME */
+#bannerHome { width: 100%; float: left; height: 300px; position: relative;}
+#containerBanner { width: 100%; margin: auto; height: 300px;}
+#containerBanner div { width: 100%; height: 300px; float: left; position: absolute; opacity: 0;}
+#containerBanner div a { display: block; float: left; width: 100%; height: 300px;}
+#containerBanner div a span { width: 100%; height: 300px; float: left;}
+#containerBanner div a span.img_1 { background: url(../img/bannerHome_1.jpg) no-repeat center 0;}
+#containerBanner div a span.img_2 { background: url(../img/bannerHome_2.jpg) no-repeat center 0;}
+#containerBanner div a span.img_3 { background: url(../img/bannerHome_3.jpg) no-repeat center 0;}
+#containerBanner div a span.img_4 { background: url(../img/bannerHome_4.jpg) no-repeat center 0;}
+#containerBanner div a span.img_5 { background: url(../img/bannerHome_5.jpg) no-repeat center 0;}
+#containerBanner div.bnActive { opacity: 1;}
+
+/* controles */
+#containerControles { position: absolute; width: 960px; height: 294px; top: 0; left: 50%; margin-left: -480px;}
+#controles { bottom: 13px; position: absolute; right: 73px; z-index: 999;}
+#controles span { cursor: pointer; display: block; float: left; width: 11px; height: 10px; background: url(../img/btn-banner.png) no-repeat 0 0; margin: 0 0 0 9px; text-indent: 3000em; overflow: hidden;}
+#controles span.btActive { background: url(../img/btn-banner-active.png) no-repeat 0 0;}
+/* controles */
+/* FIM BANNER HOME */
+
+/* CONTEUDO HOME */
+.boxesHome { float: left; width: 230px; height: 384px; margin-right: 40px; border: 1px solid #ECE9E4; background: #FFF; padding: 0 30px 50px; position: relative;}
+.boxesHome:last-child { margin-right: 0;}
+.boxesHome .containerBox { width: 227px; margin: auto;}
+.boxesHome .containerBox h2 { color: #e85627; font: 25px "MyriadPro"; display: block; margin-bottom: 5px; text-transform: uppercase; width: 227px; margin: 30px auto 0;}
+.boxesHome .containerBox img {}
+.boxesHome .containerBox .legendaImg { color: #6E6E6E; font: 17px "MyriadPro"; width: 227px; margin: auto; display: block;}
+.boxesHome a.containerLink { width: 227px; height: 72px; display: block; position: absolute; bottom: -60px; background: url(../img/bg-btn-destaque-home.png) no-repeat 0 0; color: #f9f7f4; font: 18px "MyriadPro"; text-align: center; padding-top: 27px;}
+.boxesHome a.containerLink:hover { color: #E8E6E3;}
+/* FIM CONTEUDO HOME */

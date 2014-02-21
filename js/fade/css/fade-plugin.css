@@ -1,0 +1,15 @@
+.galeriaLeft { width: 434px; height: 141px; float: left; background: url(../../../img/bgGaleriaLeft.png) left top; padding: 13px 23px 0; margin-top: 20px;}
+.galeriaLeft .title { font-size: 45px;}
+.galeriaLeft .resumo { color: #383636; font-size: 14px; margin-top: 17px;}
+
+.galeriaRight { width: 476px; height: 187px; float: left; border: 4px solid #208960; border-top: 5px solid #208960; border-bottom: 5px solid #208960; -moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; -moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/; -moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; -moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+.galeriaRight img { border: 2px solid #2A2A2A;}
+
+div.fadenav { height: 37px; position: absolute; top: 175px; right: 0; padding: 0 0 0 21px;}
+div.fadenav a { display: block; background: url(../img/btInactive.jpg) no-repeat left top; width: 50px; height: 37px; float: left; overflow: hidden;}
+div.fadenav a:hover {}
+div.fadenav a.current { background: url(../img/verde/btActive.jpg) no-repeat left top;}/* COR */
+
+.bgLeft { width: 21px; height: 37px; float: right; background: url(../img/bgLeft.png) no-repeat left top; position: absolute; left: 0; display: block;}
+.bgRight { width: 21px; height: 37px; float: right; background: url(../img/bgRight.png) no-repeat left top; position: absolute; right: 0; top: 0; display: block;}
+.bgDivisao { width: 21px; height: 37px; float: right; background: url(../img/bgDivisao.jpg) no-repeat left top; display: block;}

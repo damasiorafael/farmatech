@@ -1,0 +1,30 @@
+Area-restrita<br>
+Ítens Encontrados: <strong>{$row_count}.</strong>
+{BEGIN display_first}
+<span>Apresentando os primeiros: <strong>{$display_count}</strong>.</span>
+{END display_first}
+
+{BEGIN details_data}
+<table cellpadding=1 cellspacing=1 border=0  class="detailtable">
+<tr>
+<td><strong>ID</strong></td>
+<td><strong>Arquivo</strong></td>
+<td><strong>Exclusivo</strong></td>
+<td><strong>Usuario</strong></td>
+<td><strong>Ativo</strong></td>
+<td><strong>Excluir</strong></td>
+<td><strong>Data</strong></td>
+</tr>
+{BEGIN details_row}
+<tr>
+<td>{$id_value}</td>
+<td>{$arquivo_value}</td>
+<td>{$exclusivo_value}</td>
+<td>{$usuario_value}</td>
+<td>{$ativo_value}</td>
+<td>{$excluir_value}</td>
+<td>{$data_value}</td>
+</tr>
+{END details_row}
+</table>
+{END details_data}
